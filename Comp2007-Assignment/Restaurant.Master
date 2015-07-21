@@ -1,0 +1,64 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Restaurant.master.cs" Inherits="Comp2007_Assignment.Restaurant" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+
+    <!--Css Section-->
+    <link href="Content/bootstrap-theme.css" rel="stylesheet" />
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="Content/Style.css" rel="stylesheet" />
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <asp:PlaceHolder ID="PlaceHolder1" runat="server">
+
+                
+               <div class="header-login-signup"> 
+
+                    <a class="navbar-brand" rel="home" href="Default.aspx" title="Buy Sell Rent Everyting">
+                           <img style="max-width:250px; margin-top: -90px;"
+                                src="Assets/images/LogoChilli.png" />
+                        </a>
+
+                    <div class="header-limiter">
+
+                       
+
+                        <nav>
+                            <a href="#">Home</a>
+                            <a href="#">Blog</a>
+                            <a href="#">Pricing</a>
+                        </nav>
+
+                        <ul>
+                             <li><p>Hello, Chandan Dadral</p></li>
+                            <li><a href="#">Login</a></li>
+                            <li><a href="#">Sign up</a></li>
+                           
+                        </ul>
+
+                    </div>
+
+                </div>
+            </asp:PlaceHolder>
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+    <!--Javascript Section-->
+    <script src="Scripts/bootstrap.min.js"></script>
+    <script src="Scripts/jquery-2.1.4.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+</body>
+</html>
