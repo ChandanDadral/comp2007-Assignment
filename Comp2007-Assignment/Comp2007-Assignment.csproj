@@ -60,10 +60,17 @@
     <Content Include="Assets\images\Burger.png" />
     <Content Include="Assets\images\dal.png" />
     <Content Include="Assets\images\dessert.png" />
+    <Content Include="Assets\images\golden.png" />
     <Content Include="Assets\images\LogoChilli.png" />
+    <Content Include="Assets\images\plane.jpg" />
     <Content Include="Assets\images\Sam.png" />
     <Content Include="Assets\images\sam2.png" />
     <Content Include="Assets\images\Tikka.png" />
+    <Content Include="Assets\Logo\cake.png" />
+    <Content Include="Assets\Logo\cheff.png" />
+    <Content Include="Assets\Logo\coffee.png" />
+    <Content Include="Assets\Logo\cook.png" />
+    <Content Include="Assets\Logo\dine.png" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
@@ -72,6 +79,7 @@
     <Content Include="Default.aspx" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Icon.png" />
+    <Content Include="Login.aspx" />
     <Content Include="Restaurant.Master" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -108,6 +116,13 @@
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Restaurant.Master.cs">

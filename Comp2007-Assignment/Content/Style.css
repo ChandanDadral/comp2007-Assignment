@@ -142,3 +142,26 @@
 
 }
 
+#footer {
+    height: 100px;
+    width: 1500px;
+    
+    background-image: url('../Assets/images/plane.jpg');
+}
+.credit{
+    padding-top: 25px;
+}
+.logos{
+    padding-left: 130px;
+}
+
+#divider{
+    height: 60px;
+    width:1400px;
+}
+
+.heading{
+    font-family: 'Shadows Into Light', cursive;
+    font-size:50px;
+    
+}

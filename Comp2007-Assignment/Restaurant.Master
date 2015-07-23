@@ -15,6 +15,8 @@
     <link href="Content/bootstrap.min.css" rel="stylesheet" />
     <link href="Content/Style.css" rel="stylesheet" />
 
+    <link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
+
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
@@ -54,6 +56,14 @@
             </asp:PlaceHolder>
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
+            <asp:PlaceHolder ID="PlaceHolder2" runat="server">
+
+      <div id="footer">
+      <div class="container">
+        <p class="text-muted credit">Copyright &copy; 2015 by <a href="http://cdadral.esy.es">Chandan Dadral</a> and <a href="http://sharmakaran.com">Karan Sharma</a>.</p>
+      </div>
+    </div>
+            </asp:PlaceHolder>
         </div>
     </form>
     <!--Javascript Section-->
