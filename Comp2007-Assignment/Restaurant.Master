@@ -23,7 +23,7 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <asp:PlaceHolder ID="PlaceHolder1" runat="server">
+            <asp:PlaceHolder ID="PublicNav" runat="server">
 
                 
                <div class="header-login-signup"> 
@@ -44,9 +44,41 @@
                         </nav>
 
                         <ul>
-                             <li><p>Hello, Chandan Dadral</p></li>
+                            
                             <li><a href="/Login.aspx">Login</a></li>
                             <li><a href="/Register.aspx">Register</a></li>
+                           
+                        </ul>
+
+                    </div>
+
+                </div>
+            </asp:PlaceHolder>
+             <asp:PlaceHolder ID="PrivateNav" runat="server">
+
+                
+               <div class="header-login-signup"> 
+
+                    <a class="navbar-brand" rel="home" href="Default.aspx" title="Buy Sell Rent Everyting">
+                           <img style="max-width:250px; margin-top: -90px;"
+                                src="Assets/images/LogoChilli.png" />
+                        </a>
+
+                    <div class="header-limiter">
+
+                       
+
+                        <nav>
+                            <a href="#">Home</a>
+                            <a href="#">Blog</a>
+                            <a href="#">Pricing</a>
+                             <a href="#">Catering</a>
+                        </nav>
+
+                        <ul>
+                           <li class="navbar-text">Hello, <asp:LoginName ID="LoginName1" runat="server" /></li>
+                            <li><a href="/Logout.aspx">Logout</a></li>
+                          
                            
                         </ul>
 
