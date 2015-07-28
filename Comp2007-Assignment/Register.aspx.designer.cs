@@ -10,34 +10,16 @@
 namespace Comp2007_Assignment {
     
     
-    public partial class Login {
+    public partial class Register {
         
         /// <summary>
-        /// LoginStatus control.
+        /// StatusMessage control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.PlaceHolder LoginStatus;
-        
-        /// <summary>
-        /// StatusText control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Literal StatusText;
-        
-        /// <summary>
-        /// LoginForm control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.PlaceHolder LoginForm;
+        protected global::System.Web.UI.WebControls.Literal StatusMessage;
         
         /// <summary>
         /// UserName control.
@@ -49,6 +31,15 @@ namespace Comp2007_Assignment {
         protected global::System.Web.UI.WebControls.TextBox UserName;
         
         /// <summary>
+        /// UserEmail control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox UserEmail;
+        
+        /// <summary>
         /// Password control.
         /// </summary>
         /// <remarks>
@@ -58,12 +49,12 @@ namespace Comp2007_Assignment {
         protected global::System.Web.UI.WebControls.TextBox Password;
         
         /// <summary>
-        /// LogoutButton control.
+        /// ConfirmPassword control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.PlaceHolder LogoutButton;
+        protected global::System.Web.UI.WebControls.TextBox ConfirmPassword;
     }
 }

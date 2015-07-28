@@ -45,8 +45,8 @@
 
                         <ul>
                              <li><p>Hello, Chandan Dadral</p></li>
-                            <li><a href="#">Login</a></li>
-                            <li><a href="#">Sign up</a></li>
+                            <li><a href="/Login.aspx">Login</a></li>
+                            <li><a href="/Register.aspx">Register</a></li>
                            
                         </ul>
 
