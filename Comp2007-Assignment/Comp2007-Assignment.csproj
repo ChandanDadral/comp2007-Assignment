@@ -102,14 +102,19 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="About.aspx" />
+    <Content Include="Assets\images\about.JPG" />
     <Content Include="Assets\images\Burger.png" />
+    <Content Include="Assets\images\chef.jpg" />
     <Content Include="Assets\images\dal.png" />
     <Content Include="Assets\images\dessert.png" />
     <Content Include="Assets\images\golden.png" />
     <Content Include="Assets\images\LogoChilli.png" />
+    <Content Include="Assets\images\merry.jpg" />
     <Content Include="Assets\images\plane.jpg" />
     <Content Include="Assets\images\Sam.png" />
     <Content Include="Assets\images\sam2.png" />
+    <Content Include="Assets\images\spice_bowls.jpg" />
     <Content Include="Assets\images\Tikka.png" />
     <Content Include="Assets\Logo\cake.png" />
     <Content Include="Assets\Logo\cheff.png" />
@@ -158,6 +163,13 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="About.aspx.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="About.aspx.designer.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>

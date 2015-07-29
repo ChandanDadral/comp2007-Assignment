@@ -14,8 +14,12 @@
     <link href="Content/bootstrap.css" rel="stylesheet" />
     <link href="Content/bootstrap.min.css" rel="stylesheet" />
     <link href="Content/Style.css" rel="stylesheet" />
+    <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
     <link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
 
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
@@ -25,61 +29,63 @@
         <div>
             <asp:PlaceHolder ID="PublicNav" runat="server">
 
-                
-               <div class="header-login-signup"> 
+
+                <div class="header-login-signup">
 
                     <a class="navbar-brand" rel="home" href="Default.aspx" title="Buy Sell Rent Everyting">
-                           <img style="max-width:250px; margin-top: -90px;"
-                                src="Assets/images/LogoChilli.png" />
-                        </a>
+                        <img style="max-width: 250px; margin-top: -90px;"
+                            src="Assets/images/LogoChilli.png" />
+                    </a>
 
                     <div class="header-limiter">
 
-                       
+
 
                         <nav>
                             <a href="#">Home</a>
-                            <a href="#">Blog</a>
+                            <a href="/About.aspx">About</a>
                             <a href="#">Pricing</a>
                         </nav>
 
                         <ul>
-                            
+
                             <li><a href="/Login.aspx">Login</a></li>
                             <li><a href="/Register.aspx">Register</a></li>
-                           
+
                         </ul>
 
                     </div>
 
                 </div>
             </asp:PlaceHolder>
-             <asp:PlaceHolder ID="PrivateNav" runat="server">
+            <asp:PlaceHolder ID="PrivateNav" runat="server">
 
-                
-               <div class="header-login-signup"> 
+
+                <div class="header-login-signup">
 
                     <a class="navbar-brand" rel="home" href="Default.aspx" title="Buy Sell Rent Everyting">
-                           <img style="max-width:250px; margin-top: -90px;"
-                                src="Assets/images/LogoChilli.png" />
-                        </a>
+                        <img style="max-width: 250px; margin-top: -90px;"
+                            src="Assets/images/LogoChilli.png" />
+                    </a>
 
                     <div class="header-limiter">
 
-                       
+
 
                         <nav>
-                            <a href="#">Home</a>
-                            <a href="#">Blog</a>
+                            <a href="/Default.aspx">Home</a>
+                            <a href="/About.aspx">About</a>
                             <a href="#">Pricing</a>
-                             <a href="#">Catering</a>
+                            <a href="#">Catering</a>
                         </nav>
 
                         <ul>
-                           <li class="navbar-text">Hello, <asp:LoginName ID="LoginName1" runat="server" /></li>
+                            <li class="navbar-text">Hello,
+                                <asp:LoginName ID="LoginName1" runat="server" />
+                            </li>
                             <li><a href="/Logout.aspx">Logout</a></li>
-                          
-                           
+
+
                         </ul>
 
                     </div>
@@ -90,11 +96,24 @@
             </asp:ContentPlaceHolder>
             <asp:PlaceHolder ID="PlaceHolder2" runat="server">
 
-      <div id="footer">
-      <div class="container">
-        <p class="text-muted credit">Copyright &copy; 2015 by <a href="http://cdadral.esy.es">Chandan Dadral</a> and <a href="http://sharmakaran.com">Karan Sharma</a>.</p>
-      </div>
-    </div>
+                <nav class="navbar navbar-inverse fotter">
+                    <div class="row">
+                    
+                        <div class="col-md-6">
+                        <p class="text-muted credit">Copyright &copy; 2015 by <a href="http://cdadral.esy.es">Chandan Dadral</a> and <a href="http://sharmakaran.com">Karan Sharma</a>.</p>
+                        
+                        </div>
+                        <div class="col-md-2 pull-right">
+                    <ul class="list-inline social-buttons">
+                        <li><a href="https://github.com/ChandanDadral"><i class="fa fa-github"></i></a> </li>
+                        <li><a href="https://twitter.com/?lang=en"><i class="fa fa-twitter"></i></a> </li>
+                        <li><a href="https://www.facebook.com"><i class="fa fa-facebook"></i></a> </li>
+                        <li><a href="https://www.linkedin.com/profile/view?id=318014756&authType=NAME_SEARCH&authToken=BWAb&locale=en_US&srchid=3180147561427684019507&srchindex=1&srchtotal=4&trk=vsrp_people_res_name&trkInfo=VSRPsearchId%3A3180147561427684019507%2CVSRPtargetId%3A318014756%2CVSRPcmpt%3Aprimary%2CVSRPnm%3A"><i class="fa fa-linkedin"></i></a> </li>
+                    </ul>
+                </div>
+                    </div>
+                </nav>
+
             </asp:PlaceHolder>
         </div>
     </form>

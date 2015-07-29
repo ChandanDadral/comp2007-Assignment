@@ -165,3 +165,34 @@
     font-size:50px;
     
 }
+
+.about-heading{
+    font-family: 'Lobster', cursive;
+    font-size:60px;
+    color: #FF9933;
+    margin-bottom:70px;
+}
+.about-heading2{
+    font-family: 'Lobster', cursive;
+    font-size:60px;
+}
+
+.fotter{
+    margin-top:200px;
+}
+
+.about-back {
+    background-image: url('../Assets/images/merry.jpg');
+}
+
+.about-info{
+
+    font-family: 'PT Sans', sans-serif;
+    font-size: 19px;
+}
+
+.about-char{
+     font-family: 'Lobster', cursive;
+    font-size:110px;
+    
+}

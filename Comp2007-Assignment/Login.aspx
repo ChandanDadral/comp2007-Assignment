@@ -4,8 +4,9 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
    
     
-    <div>
-         <h4 style="font-size: medium">Log In</h4>
+    <div class="text-center">
+        <h2 class="heading"> Login </h2>
+        <h4>Please log in in order to manage bookings</h4>
          <hr />
          <asp:PlaceHolder runat="server" ID="LoginStatus" Visible="false">
             <p>
@@ -25,12 +26,13 @@
                   <asp:TextBox runat="server" ID="Password" TextMode="Password" />
                </div>
             </div>
-            <div style="margin-bottom: 10px">
-               <div>
-                  <asp:Button runat="server" OnClick="SignIn" Text="Log in" />
-               </div>
-            </div>
+            <div class="col-lg-push-5">
+        <asp:Button ID="btnLogin" runat="server" Text="Login" CssClass="btn btn-primary"
+            OnClick="SignIn" />
+    </div>
          </asp:PlaceHolder>
+
+       
          <asp:PlaceHolder runat="server" ID="LogoutButton" Visible="false">
             <div>
                <div>
