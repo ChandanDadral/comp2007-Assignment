@@ -107,6 +107,7 @@
     <Content Include="About.aspx" />
     <Content Include="Assets\images\about.JPG" />
     <Content Include="Assets\images\Burger.png" />
+    <Content Include="Assets\images\Capture.PNG" />
     <Content Include="Assets\images\chef.jpg" />
     <Content Include="Assets\images\dal.png" />
     <Content Include="Assets\images\dessert.png" />
@@ -123,11 +124,14 @@
     <Content Include="Assets\Logo\coffee.png" />
     <Content Include="Assets\Logo\cook.png" />
     <Content Include="Assets\Logo\dine.png" />
+    <Content Include="Assets\Logo\menuLogo.PNG" />
     <Content Include="Bookings\Default.aspx" />
     <Content Include="Bookings\Delete.aspx" />
     <Content Include="Bookings\Details.aspx" />
     <Content Include="Bookings\Edit.aspx" />
     <Content Include="Bookings\Insert.aspx" />
+    <Content Include="Catering.aspx" />
+    <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
@@ -248,6 +252,20 @@
     </Compile>
     <Compile Include="Bookings\Insert.aspx.designer.cs">
       <DependentUpon>Insert.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Catering.aspx.cs">
+      <DependentUpon>Catering.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Catering.aspx.designer.cs">
+      <DependentUpon>Catering.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Contact.aspx.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contact.aspx.designer.cs">
+      <DependentUpon>Contact.aspx</DependentUpon>
     </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>

@@ -76,7 +76,8 @@
                             <a href="/Default.aspx">Home</a>
                             <a href="/About.aspx">About</a>
                             <a href="/Bookings/Default.aspx">Booking</a>
-                            <a href="#">Catering</a>
+                            <a href="/Catering.aspx">Catering</a>
+                            <a href="/Contact.aspx">Contact</a>
                         </nav>
 
                         <ul>

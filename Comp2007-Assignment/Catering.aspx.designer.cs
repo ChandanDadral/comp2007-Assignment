@@ -7,18 +7,18 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Comp2007_Assignment.Bookings {
+namespace Comp2007_Assignment {
     
     
-    public partial class Default {
+    public partial class Catering {
         
         /// <summary>
-        /// ListView1 control.
+        /// Button1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ListView ListView1;
+        protected global::System.Web.UI.WebControls.Button Button1;
     }
 }
