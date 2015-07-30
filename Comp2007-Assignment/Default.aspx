@@ -123,4 +123,65 @@
         </div>
     </section>
        
+    <!---Tings to know-->
+    <hr />
+      <img id="divider" src="Assets/images/golden.png" />
+    <section>
+        <div class="container">
+         <h1 class="text-center heading">Things to Know</h1>
+            <div class="col-lg-offset-1">
+			<div class="panel-group" id="accordion-qa">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h4 class="panel-title"><a href="#qa-1" data-toggle="collapse" data-parent="#accordion-qa">Century Of Success</a></h4>
+					</div>
+					<div class="panel-collapse collapse in" id="qa-1">
+						<div class="panel-body">
+                            <div class="col-lg-5">
+                            <img src="Assets/Logo/successLogo.JPG" />
+							</div>
+                            <div class="col-lg-6">
+                                We know that opening a franchise is a tremendous opportunity. We understand your passion. Charley started the business with his dream of opening a restaurant. His entrepreneurial spirit and work ethic have guided us from day one
+						</div>
+                            </div> <!-- end panel-body -->
+					</div> <!-- end collapse -->
+				</div> <!-- end panel -->
+
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h4 class="panel-title"><a href="#qa-2" data-toggle="collapse" data-parent="#accordion-qa">Brotherly Love</a></h4>
+					</div>
+					<div class="panel-collapse collapse" id="qa-2">
+						<div class="panel-body">
+                            <div class="col-lg-5">
+                                <img src="Assets/Logo/commitedLogo.JPG" />
+                            </div>
+                            <div class="col-lg-6">
+							Our passion for serving up remarkable Philly Steaks is matched by our passion for serving the communities where we live and work. Throughout the world, we help strengthen local communities by giving time, energy, and funds to support worthy causes, sponsor neighborhood organizations, and organize charitable events.
+						</div>
+                            </div> <!-- end panel-body -->
+					</div> <!-- end collapse -->
+				</div> <!-- end panel -->
+
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h4 class="panel-title"><a href="#qa-3" data-toggle="collapse" data-parent="#accordion-qa">People Love Us</a></h4>
+					</div>
+					<div class="panel-collapse collapse" id="qa-3">
+						<div class="panel-body">
+                            <div class="col-lg-5">
+                                <img src="Assets/Logo/peopleLogo.JPG" />
+                            </div>
+                            <div class="col-lg-6">
+
+                        As People loves Chilli Flakes, due to high quality of the food that best service. We offer catering service and special arrangement for birthday parties. We are in food industry for Last 100 years and we have many locations please come by and try the best food .
+					</div>
+                                	</div> <!-- end panel-body -->
+					</div> <!-- end collapse -->
+				</div> <!-- end panel -->
+			</div> <!-- end panel-group -->
+            </div>
+            </div>
+    </section>
+       
 </asp:Content>

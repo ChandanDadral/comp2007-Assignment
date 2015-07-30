@@ -156,7 +156,7 @@
 }
 
 #divider{
-    height: 60px;
+    height: 100px;
     width:1400px;
 }
 
@@ -178,7 +178,7 @@
 }
 
 .fotter{
-    margin-top:200px;
+    margin-top:100px;
 }
 
 .about-back {
@@ -195,4 +195,43 @@
      font-family: 'Lobster', cursive;
     font-size:110px;
     
+}
+
+.portfolio-modal .close-modal {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    width: 75px;
+    height: 75px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.portfolio-modal .close-modal .lr .rl {
+    z-index: 1052;
+    width: 1px;
+    height: 75px;
+    background-color: #222;
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.portfolio-modal .close-modal:hover {
+    opacity: .3;
+}
+
+.portfolio-modal .close-modal .lr {
+    z-index: 1051;
+    width: 1px;
+    height: 75px;
+    margin-left: 35px;
+    background-color: #222;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.navbar-inner {
+    background-color:transparent;
 }

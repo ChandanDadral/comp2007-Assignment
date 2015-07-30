@@ -38,6 +38,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Artem.Google">
+      <HintPath>..\packages\GoogleMapControl.6.1.12290.1016\lib\net40\Artem.Google.dll</HintPath>
+    </Reference>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\EntityFramework.6.1.0\lib\net45\EntityFramework.dll</HintPath>
@@ -113,6 +116,7 @@
     <Content Include="Assets\images\dessert.png" />
     <Content Include="Assets\images\golden.png" />
     <Content Include="Assets\images\LogoChilli.png" />
+    <Content Include="Assets\images\maps.JPG" />
     <Content Include="Assets\images\merry.jpg" />
     <Content Include="Assets\images\plane.jpg" />
     <Content Include="Assets\images\Sam.png" />
@@ -122,9 +126,12 @@
     <Content Include="Assets\Logo\cake.png" />
     <Content Include="Assets\Logo\cheff.png" />
     <Content Include="Assets\Logo\coffee.png" />
+    <Content Include="Assets\Logo\commitedLogo.JPG" />
     <Content Include="Assets\Logo\cook.png" />
     <Content Include="Assets\Logo\dine.png" />
     <Content Include="Assets\Logo\menuLogo.PNG" />
+    <Content Include="Assets\Logo\peopleLogo.JPG" />
+    <Content Include="Assets\Logo\successLogo.JPG" />
     <Content Include="Bookings\Default.aspx" />
     <Content Include="Bookings\Delete.aspx" />
     <Content Include="Bookings\Details.aspx" />

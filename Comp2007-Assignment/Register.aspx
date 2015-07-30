@@ -4,7 +4,9 @@
 
 
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
-    <div class="text-center">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-7 text-center">
         <h2 class="heading"> Register with Chilli Flakes </h2>
         <h4>Please enter the information Below</h4>
          <hr />
@@ -43,9 +45,17 @@
         <asp:Button ID="btnLogin" runat="server" Text="Register" CssClass="btn btn-primary"
             OnClick="CreateUser_Click" />
     </div>
-                
+          </div>      
             </div>
+            <div class="col-lg-5 pull-right fotter">
+                <img src="Assets/Logo/menuLogo.PNG" />
+                <hr />
+                <div class="pull-left">
+                <i class="fa fa-thumbs-up fa-5x"></i>
+                    <h3> You will Love our Food</h3>
+                    </div>
         </div>
+    </div>
     </div>
 
 </asp:Content>

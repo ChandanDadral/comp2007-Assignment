@@ -15,7 +15,7 @@
                 <img class="center-block" src="Assets/Logo/menuLogo.PNG" />
                 <p class="about-info text-center"> Get a catering inforamtion by asking a Catering Quote.</p>
                 <hr />
-                <asp:Button ID="Button1" runat="server" Text="Get a Quote Here" CssClass="btn-primary "/>
+                <asp:Button ID="Button1" runat="server" Text="Get a Quote Here" CssClass="btn-primary btn-lg"/>
             </div>
             <div class="col-md-6">
         <div class="pull-right"> 

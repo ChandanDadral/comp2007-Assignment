@@ -30,6 +30,7 @@
             <asp:PlaceHolder ID="PublicNav" runat="server">
 
 
+                 
                 <div class="header-login-signup">
 
                     <a class="navbar-brand" rel="home" href="Default.aspx" title="Buy Sell Rent Everyting">
@@ -42,7 +43,7 @@
 
 
                         <nav>
-                            <a href="#">Home</a>
+                            <a href="/Default.aspx">Home</a>
                             <a href="/About.aspx">About</a>
                             <a href="#">Pricing</a>
                         </nav>
@@ -96,8 +97,40 @@
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
             <asp:PlaceHolder ID="PlaceHolder2" runat="server">
+                <div class="container navbar fotter">
+                <hr />
+                <div class="row list-inline text-center">
+                 <li><a href="https://github.com/ChandanDadral"><i class="fa fa-github fa-2x"></i></a> </li>
+                        <li><a href="https://twitter.com/?lang=en"><i class="fa fa-twitter fa-2x"></i></a> </li>
+                        <li><a href="https://www.facebook.com"><i class="fa fa-facebook fa-2x"></i></a> </li>
+                        <li><a href="https://www.linkedin.com/profile/view?id=318014756&authType=NAME_SEARCH&authToken=BWAb&locale=en_US&srchid=3180147561427684019507&srchindex=1&srchtotal=4&trk=vsrp_people_res_name&trkInfo=VSRPsearchId%3A3180147561427684019507%2CVSRPtargetId%3A318014756%2CVSRPcmpt%3Aprimary%2CVSRPnm%3A"><i class="fa fa-linkedin fa-2x"></i></a> </li>
+                </div>
+                <div>
+                      <p class="credit text-center">Copyright &copy; 2015 by <a href="http://cdadral.esy.es">Chandan Dadral</a> and <a href="http://sharmakaran.com">Karan Sharma</a>.</p>
+              </div>
+                     <div class="list-inline text-center">
 
-                <nav class="navbar navbar-inverse fotter">
+                       <div class="row">   
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <div>
+                            <li><i class="fa fa-sticky-note-o"></i> Term Of Use </li>
+                        </div>
+                      
+                    </a>
+                   
+                          <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                        <div>
+                             <li><i class="fa fa-cog fa-spin"></i> Privacy Policy </li>
+                        </div>
+                      
+                    </a>
+               </div>
+                    
+                    
+                     </div>
+                    </div>
+
+              <%--  <nav class="navbar navbar-inverse fotter">
                     <div class="row">
                     
                         <div class="col-md-6">
@@ -113,8 +146,60 @@
                     </ul>
                 </div>
                     </div>
-                </nav>
+                </nav>--%>
+                <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"> </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
 
+                            <h2>Terms of Use</h2>
+                            <p class="item-intro text-muted">Conditions.</p>
+                            
+                            <p>This game is developed with the createjs libraries which are easeljs, preloadjs, soundjs and tweenjs. It is developed for study purpose to learn the functionality of these liabraries </p>
+                            <p> It is a clone of Jetpack joyride in iOS and all the assets are take from that game. In this game sound effects are given which gives extra effect to gameplay. To pass this game player has to score 5000 points.</p>
+                            <p> I have hosted this game live and I have working on it to add some more levels and features to it.</p>
+                            <ul class="list-inline">
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+                <!--Privacy Policy-->
+                   <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl"> </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+
+                            <h2>Privacy Policy</h2>
+                            <p class="item-intro text-muted">Conditions.</p>
+                            
+                            <p>This game is developed with the createjs libraries which are easeljs, preloadjs, soundjs and tweenjs. It is developed for study purpose to learn the functionality of these liabraries </p>
+                            <p> It is a clone of Jetpack joyride in iOS and all the assets are take from that game. In this game sound effects are given which gives extra effect to gameplay. To pass this game player has to score 5000 points.</p>
+                            <p> I have hosted this game live and I have working on it to add some more levels and features to it.</p>
+                            <ul class="list-inline">
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
             </asp:PlaceHolder>
         </div>
     </form>
