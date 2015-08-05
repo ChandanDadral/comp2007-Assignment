@@ -17,6 +17,7 @@
                        
                             <div class="col-md-6">
                                 <div class="form-group">
+
                                     <asp:Label ID="LabelName" runat="server" Text="Name"></asp:Label>
                                     <asp:TextBox ID="TextName" runat="server" class="form-control"></asp:TextBox>
                                      
@@ -34,7 +35,8 @@
                                     <asp:TextBox ID="TextMessage" runat="server" CssClass="form-control"></asp:TextBox>
                                     </div>
                                 <asp:Button ID="SubmitBtn" runat="server" Text="Submit" OnClick="SubmitBtn_Click" CssClass="btn-primary btn-lg" /> 
-                            </div>
+                                <asp:Label ID="lblResult" runat="server" Text="Send Email From Above Form" CssClass="form-control"></asp:Label>
+                                 </div>
 
                     <div class="col-lg-6">
 

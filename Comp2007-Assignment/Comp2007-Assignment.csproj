@@ -137,6 +137,29 @@
     <Content Include="Assets\Logo\menuLogo.PNG" />
     <Content Include="Assets\Logo\peopleLogo.JPG" />
     <Content Include="Assets\Logo\successLogo.JPG" />
+    <Content Include="Assets\Menu\alootikki.jpg" />
+    <Content Include="Assets\Menu\basmatirice.JPG" />
+    <Content Include="Assets\Menu\chapati.JPG" />
+    <Content Include="Assets\Menu\chick.JPG" />
+    <Content Include="Assets\Menu\chicken.JPG" />
+    <Content Include="Assets\Menu\chickenTikka.jpg" />
+    <Content Include="Assets\Menu\chutney.JPG" />
+    <Content Include="Assets\Menu\cucumber.JPG" />
+    <Content Include="Assets\Menu\curry.JPG" />
+    <Content Include="Assets\Menu\fishcurry.jpg" />
+    <Content Include="Assets\Menu\garlicNaan.jpg" />
+    <Content Include="Assets\Menu\gulabjamun.jpg" />
+    <Content Include="Assets\Menu\lentis.JPG" />
+    <Content Include="Assets\Menu\madras.JPG" />
+    <Content Include="Assets\Menu\naaan.JPG" />
+    <Content Include="Assets\Menu\rasmalai.jpg" />
+    <Content Include="Assets\Menu\rice.JPG" />
+    <Content Include="Assets\Menu\roganjosh.jpg" />
+    <Content Include="Assets\Menu\saag.JPG" />
+    <Content Include="Assets\Menu\shrimps.jpg" />
+    <Content Include="Assets\Menu\somasac.jpg" />
+    <Content Include="Assets\Menu\tikka masala.jpg" />
+    <Content Include="Assets\Menu\vegetable curry.JPG" />
     <Content Include="Bookings\Default.aspx" />
     <Content Include="Bookings\Delete.aspx" />
     <Content Include="Bookings\Details.aspx" />
@@ -173,6 +196,7 @@
     <Content Include="Icon.png" />
     <Content Include="Login.aspx" />
     <Content Include="Logout.aspx" />
+    <Content Include="Menu.aspx" />
     <Content Include="Register.aspx" />
     <Content Include="Restaurant.Master" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
@@ -201,6 +225,7 @@
       <DependentUpon>BookingModel.edmx</DependentUpon>
       <LastGenOutput>BookingModel.cs</LastGenOutput>
     </Content>
+    <Content Include="Assets\Menu\menu.pdf" />
     <None Include="Properties\PublishProfiles\Comp2007-Assignment.pubxml" />
     <None Include="Scripts\jquery-2.1.4.intellisense.js" />
     <Content Include="Scripts\jquery-2.1.4.js" />
@@ -444,6 +469,13 @@
     </Compile>
     <Compile Include="Logout.aspx.designer.cs">
       <DependentUpon>Logout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Menu.aspx.cs">
+      <DependentUpon>Menu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Menu.aspx.designer.cs">
+      <DependentUpon>Menu.aspx</DependentUpon>
     </Compile>
     <Compile Include="Models\Booking.cs">
       <DependentUpon>BookingModel.tt</DependentUpon>

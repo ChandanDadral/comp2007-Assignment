@@ -176,7 +176,12 @@
     font-family: 'Lobster', cursive;
     font-size:60px;
 }
-
+.about-heading3{
+    font-family: 'Lobster', cursive;
+    font-size:40px;
+    color: #FF9933;
+     margin-bottom:20px;
+}
 .fotter{
     margin-top:100px;
 }
@@ -234,4 +239,20 @@
 
 .navbar-inner {
     background-color:transparent;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
+    opacity: 1;
+}
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
+    margin-top: -12px;
+}
+.imgM {
+    opacity: 1.0;
+    filter: alpha(opacity=40); /* For IE8 and earlier */
+}
+
+.imgM:hover {
+    opacity: 0.4;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
 }

@@ -45,7 +45,7 @@
                         <nav>
                             <a href="/Default.aspx">Home</a>
                             <a href="/About.aspx">About</a>
-                            <a href="#">Pricing</a>
+                            <a href="/Menu.aspx">Menu</a>
                         </nav>
 
                         <ul>
@@ -76,9 +76,10 @@
                         <nav>
                             <a href="/Default.aspx">Home</a>
                             <a href="/About.aspx">About</a>
+                            <a href="/Menu.aspx">Menu</a>
                             <a href="/Bookings/Default.aspx">Booking</a>
                             <a href="/Catering.aspx">Catering</a>
-                            <a href="/Contact.aspx">Contact</a>
+                          
                         </nav>
 
                         <ul>
