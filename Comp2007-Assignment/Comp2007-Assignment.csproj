@@ -134,6 +134,7 @@
     <Content Include="Assets\Logo\commitedLogo.JPG" />
     <Content Include="Assets\Logo\cook.png" />
     <Content Include="Assets\Logo\dine.png" />
+    <Content Include="Assets\Logo\fff.jpg" />
     <Content Include="Assets\Logo\menuLogo.PNG" />
     <Content Include="Assets\Logo\peopleLogo.JPG" />
     <Content Include="Assets\Logo\successLogo.JPG" />
@@ -166,7 +167,13 @@
     <Content Include="Bookings\Edit.aspx" />
     <Content Include="Bookings\Insert.aspx" />
     <Content Include="Catering.aspx" />
+    <Content Include="Caterings\Default.aspx" />
+    <Content Include="Caterings\Delete.aspx" />
+    <Content Include="Caterings\Details.aspx" />
+    <Content Include="Caterings\Edit.aspx" />
+    <Content Include="Caterings\Insert.aspx" />
     <Content Include="Conformation\BookingConfirm.aspx" />
+    <Content Include="Conformation\CateringConfirmation.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
@@ -249,6 +256,23 @@
       <DependentUpon>ReserveModel.edmx</DependentUpon>
       <LastGenOutput>ReserveModel.cs</LastGenOutput>
     </Content>
+    <EntityDeploy Include="Models\CateringModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>CateringModel.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <Content Include="Models\CateringModel.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>CateringModel.edmx</DependentUpon>
+      <LastGenOutput>CateringModel.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="Models\CateringModel.edmx.diagram">
+      <DependentUpon>CateringModel.edmx</DependentUpon>
+    </Content>
+    <Content Include="Models\CateringModel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>CateringModel.edmx</DependentUpon>
+      <LastGenOutput>CateringModel.cs</LastGenOutput>
+    </Content>
     <None Include="Properties\PublishProfiles\Comp2007-Assignment %282%29.pubxml" />
     <None Include="Properties\PublishProfiles\Comp2007-Assignment.pubxml" />
     <None Include="Scripts\jquery-2.1.4.intellisense.js" />
@@ -329,12 +353,54 @@
     <Compile Include="Catering.aspx.designer.cs">
       <DependentUpon>Catering.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Caterings\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Caterings\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Caterings\Delete.aspx.cs">
+      <DependentUpon>Delete.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Caterings\Delete.aspx.designer.cs">
+      <DependentUpon>Delete.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Caterings\Details.aspx.cs">
+      <DependentUpon>Details.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Caterings\Details.aspx.designer.cs">
+      <DependentUpon>Details.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Caterings\Edit.aspx.cs">
+      <DependentUpon>Edit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Caterings\Edit.aspx.designer.cs">
+      <DependentUpon>Edit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Caterings\Insert.aspx.cs">
+      <DependentUpon>Insert.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Caterings\Insert.aspx.designer.cs">
+      <DependentUpon>Insert.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Conformation\BookingConfirm.aspx.cs">
       <DependentUpon>BookingConfirm.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Conformation\BookingConfirm.aspx.designer.cs">
       <DependentUpon>BookingConfirm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Conformation\CateringConfirmation.aspx.cs">
+      <DependentUpon>CateringConfirmation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Conformation\CateringConfirmation.aspx.designer.cs">
+      <DependentUpon>CateringConfirmation.aspx</DependentUpon>
     </Compile>
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
@@ -525,6 +591,24 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>BookingModel.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Catering.cs">
+      <DependentUpon>CateringModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\CateringModel.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CateringModel.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\CateringModel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CateringModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\CateringModel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CateringModel.edmx</DependentUpon>
     </Compile>
     <Compile Include="Models\Reserve.cs">
       <DependentUpon>ReserveModel.tt</DependentUpon>

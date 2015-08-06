@@ -24,7 +24,7 @@ namespace Comp2007_Assignment
                 //Create the msg object to be sent
                 MailMessage msg = new MailMessage();
                 //Add your email address to the recipients
-                msg.To.Add("cdadral9@gmail.com");
+                msg.To.Add("karansharma786@live.com");
                 //Configure the address we are sending the mail from
                 MailAddress address = new MailAddress(TextEmail.Text);
                 msg.From = address;

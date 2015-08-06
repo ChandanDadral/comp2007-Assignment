@@ -3,5 +3,9 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
 
-    <h1>404 - Page Not Found!</h1>
+    <h1 class="text-center">404 - Page Not Found!</h1>
+    <p class="text-center text-muted"> Something went wrong</p>
+    <div class="col-md-offset-5">
+        <img src="Assets/Logo/fff.jpg" />
+    </div>
 </asp:Content>

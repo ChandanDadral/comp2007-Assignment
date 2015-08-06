@@ -22,7 +22,7 @@
                 <p class="about-info"> Get a catering inforamtion by asking a Catering Quote.</p>
                     
                 <hr />
-                <asp:Button ID="Button1" runat="server" Text="Get a Quote Here" CssClass="btn-primary btn-lg"/>
+                <asp:Button ID="Button1" runat="server" Text="Get a Quote Here" CssClass="btn-primary btn-lg" OnClick="quote"/>
             </div>
                 </div>
             <div class="col-md-6">
