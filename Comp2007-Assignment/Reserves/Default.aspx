@@ -1,7 +1,10 @@
 ﻿<%@ Page Title="ReserveList" Language="C#" MasterPageFile="~/Restaurant.Master" CodeBehind="Default.aspx.cs" Inherits="Comp2007_Assignment.Reserves.Default" %>
 <%@ Register TagPrefix="FriendlyUrls" Namespace="Microsoft.AspNet.FriendlyUrls" %>
 <asp:Content runat="server" ContentPlaceHolderID="MainContent">
-    <h2 class="heading">Reserves List</h2>
+     
+    <div class="container">
+    <h2 class="heading text-center">Reserves List</h2>
+         <p class="paragraph-text"> These are the Reservation that have been made.</p>
     <div>
         <asp:ListView id="ListView1" runat="server"
             DataKeyNames="Id" 
@@ -68,13 +71,14 @@
 								<asp:DynamicControl runat="server" DataField="Message" ID="Message" Mode="ReadOnly" />
 							</td>
                     <td>
-					    <asp:HyperLink runat="server" NavigateUrl='<%# FriendlyUrl.Href("~/Reserves/Details", Item.Id) %>' Text="Details" /> | 
-					    <asp:HyperLink runat="server" NavigateUrl='<%# FriendlyUrl.Href("~/Reserves/Edit", Item.Id) %>' Text="Edit" /> | 
-                        <asp:HyperLink runat="server" NavigateUrl='<%# FriendlyUrl.Href("~/Reserves/Delete", Item.Id) %>' Text="Delete" />
+					    <asp:HyperLink runat="server" NavigateUrl='<%# FriendlyUrl.Href("~/Reserves/Details", Item.Id) %>' Text="Details" ><i class="fa fa-file-text fa-2x"></i></asp:HyperLink> | 
+					    <asp:HyperLink runat="server" NavigateUrl='<%# FriendlyUrl.Href("~/Reserves/Edit", Item.Id) %>' Text="Edit" ><i class="fa fa-pencil-square-o fa-2x"></i> </asp:HyperLink> | 
+                        <asp:HyperLink runat="server" NavigateUrl='<%# FriendlyUrl.Href("~/Reserves/Delete", Item.Id) %>' Text="Delete" ><i class="fa fa-eraser fa-2x"></i></asp:HyperLink>
                     </td>
                 </tr>
             </ItemTemplate>
         </asp:ListView>
     </div>
+        </div>
 </asp:Content>
 

@@ -4,6 +4,7 @@
      <div class="container">
         <div class="row">
     <div> 
+        <div class="col-sm-10">
 		<p>&nbsp;</p>
         <asp:FormView runat="server"
             ItemType="Comp2007_Assignment.Models.Reserve" DefaultMode="Insert"
@@ -28,6 +29,11 @@
             </InsertItemTemplate>
         </asp:FormView>
     </div>
+        <div class="col-sm-2">
+<img src="../Assets/Logo/deal2.JPG" class="icon-L"/>
+            <p class=" paragraph-text"> Try our special.</p>
+        </div>
+        </div>
        </div>
         <h3 class="about-heading3 text-center"> Food is of Best quality</h3>
          <div class="col-md-offset-3">

@@ -1,10 +1,14 @@
 ﻿<%@ Page Title="CateringList" Language="C#" MasterPageFile="~/Restaurant.Master" CodeBehind="Default.aspx.cs" Inherits="Comp2007_Assignment.Caterings.Default" %>
 <%@ Register TagPrefix="FriendlyUrls" Namespace="Microsoft.AspNet.FriendlyUrls" %>
 <asp:Content runat="server" ContentPlaceHolderID="MainContent">
-    <h2 class="heading">Caterings List</h2>
-    <p>
-        <asp:HyperLink runat="server" NavigateUrl="Insert" Text="Create new" />
+    
+    
+    <div class="container">
+        <h2 class="heading text-center">Caterings List</h2>
+        <p>
+        <asp:HyperLink runat="server" NavigateUrl="Insert" Text="Add New" />
     </p>
+        <p class="paragraph-text"> These are the List of Caterings that have been Booked.</p>
     <div>
         <asp:ListView id="ListView1" runat="server"
             DataKeyNames="Id" 
@@ -83,13 +87,15 @@
 								<asp:DynamicControl runat="server" DataField="Guests" ID="Guests" Mode="ReadOnly" />
 							</td>
                     <td>
-					    <asp:HyperLink runat="server" NavigateUrl='<%# FriendlyUrl.Href("~/Caterings/Details", Item.Id) %>' Text="Details" /> | 
-					    <asp:HyperLink runat="server" NavigateUrl='<%# FriendlyUrl.Href("~/Caterings/Edit", Item.Id) %>' Text="Edit" /> | 
-                        <asp:HyperLink runat="server" NavigateUrl='<%# FriendlyUrl.Href("~/Caterings/Delete", Item.Id) %>' Text="Delete" />
+					    <asp:HyperLink runat="server" NavigateUrl='<%# FriendlyUrl.Href("~/Caterings/Details", Item.Id) %>' Text="Details" ><i class="fa fa-file-text fa-2x"></i></asp:HyperLink> | 
+					    <asp:HyperLink runat="server" NavigateUrl='<%# FriendlyUrl.Href("~/Caterings/Edit", Item.Id) %>' Text="Edit" ><i class="fa fa-pencil-square-o fa-2x"></i> </asp:HyperLink> | 
+                        <asp:HyperLink runat="server" NavigateUrl='<%# FriendlyUrl.Href("~/Caterings/Delete", Item.Id) %>' CssClass="icon-new"><i class="fa fa-eraser fa-2x"></i></asp:HyperLink>
+                    
                     </td>
                 </tr>
             </ItemTemplate>
         </asp:ListView>
     </div>
+        </div>
 </asp:Content>
 

@@ -12,7 +12,8 @@
             </EmptyDataTemplate>
             <ItemTemplate>
                 <fieldset class="form-horizontal">
-                    <legend>Reserve Details</legend>
+                    <legend class="heading text-center">Reserve Details</legend>
+                    <p class="paragraph-text">This is the detail view of the selected booking</p>
 							<div class="row">
 								<div class="col-sm-2 text-right">
 									<strong>Id</strong>
