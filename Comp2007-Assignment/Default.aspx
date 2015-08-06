@@ -106,8 +106,8 @@
                 </div>
                  <div class="col-md-2">
                     <img src="Assets/Logo/cheff.png" />
-                    <h4>Dine Better</h4>
-                    <p class="text-muted">We Provide better service for dinning</p>
+                    <h4>Best Cheff</h4>
+                    <p class="text-muted">We have better Cheffs</p>
                 </div>
                  <div class="col-md-2">
                     <img src="Assets/Logo/coffee.png" />

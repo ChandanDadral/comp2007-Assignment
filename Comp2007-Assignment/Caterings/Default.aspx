@@ -1,7 +1,7 @@
 ﻿<%@ Page Title="CateringList" Language="C#" MasterPageFile="~/Restaurant.Master" CodeBehind="Default.aspx.cs" Inherits="Comp2007_Assignment.Caterings.Default" %>
 <%@ Register TagPrefix="FriendlyUrls" Namespace="Microsoft.AspNet.FriendlyUrls" %>
 <asp:Content runat="server" ContentPlaceHolderID="MainContent">
-    <h2>Caterings List</h2>
+    <h2 class="heading">Caterings List</h2>
     <p>
         <asp:HyperLink runat="server" NavigateUrl="Insert" Text="Create new" />
     </p>

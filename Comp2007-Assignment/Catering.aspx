@@ -10,8 +10,8 @@
         </div>
         <div class="row">
             <div class="col-md-6">
-                <h2 class="about-heading col-lg-offset-4"> Veda Catering</h2>
-                <p class="about-info text-center"> Veda do catering for Parties like Birthday, Weeding. We have a quality in food and our staff offers best serving service.</p>
+                <h2 class="about-heading col-lg-offset-4"> Chilli Flakes Catering</h2>
+                <p class="about-info text-center"> Chilli Flakes do catering for Parties like Birthday, Weeding. We have a quality in food and our staff offers best serving service.</p>
                 <img class="center-block" src="Assets/Logo/menuLogo.PNG"/>
                  <div class="col-lg-8 col-lg-offset-2 text-center">
                     <a href="Assets/Menu/menu.pdf" onclick="_gaq.push(['_trackEvent', 'Button', 'Download', 'Download Resume']);" target="_blank" class="btn btn-lg btn-group">

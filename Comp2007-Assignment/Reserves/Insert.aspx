@@ -1,6 +1,9 @@
 ﻿<%@ Page Title="ReserveInsert" Language="C#" MasterPageFile="~/Restaurant.Master" CodeBehind="Insert.aspx.cs" Inherits="Comp2007_Assignment.Reserves.Insert" %>
 <asp:Content runat="server" ContentPlaceHolderID="MainContent">
-    <div>
+   
+     <div class="container">
+        <div class="row">
+    <div> 
 		<p>&nbsp;</p>
         <asp:FormView runat="server"
             ItemType="Comp2007_Assignment.Models.Reserve" DefaultMode="Insert"
@@ -8,7 +11,7 @@
             OnItemCommand="ItemCommand" RenderOuterTable="false">
             <InsertItemTemplate>
                 <fieldset class="form-horizontal">
-				<legend>Reserve a Table</legend>
+				<legend class="heading">Reserve a Table</legend>
 		        <asp:ValidationSummary runat="server" CssClass="alert alert-danger" />
 						    <asp:DynamicControl Mode="Insert" DataField="Name" runat="server" />
 						    <asp:DynamicControl Mode="Insert" DataField="Email" runat="server" />
@@ -25,4 +28,11 @@
             </InsertItemTemplate>
         </asp:FormView>
     </div>
+       </div>
+        <h3 class="about-heading3 text-center"> Food is of Best quality</h3>
+         <div class="col-md-offset-3">
+<img src="../Assets/images/info.JPG" />
+            </div>
+                
+        </div>
 </asp:Content>

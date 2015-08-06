@@ -1,7 +1,7 @@
 ﻿<%@ Page Title="ReserveList" Language="C#" MasterPageFile="~/Restaurant.Master" CodeBehind="Default.aspx.cs" Inherits="Comp2007_Assignment.Reserves.Default" %>
 <%@ Register TagPrefix="FriendlyUrls" Namespace="Microsoft.AspNet.FriendlyUrls" %>
 <asp:Content runat="server" ContentPlaceHolderID="MainContent">
-    <h2>Reserves List</h2>
+    <h2 class="heading">Reserves List</h2>
     <div>
         <asp:ListView id="ListView1" runat="server"
             DataKeyNames="Id" 

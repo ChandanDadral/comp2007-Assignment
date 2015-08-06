@@ -9,7 +9,7 @@
         <div class="row">
              <h2 class="text-center about-heading3"> Main Course</h2>
          <div class="col-lg-3">
-             <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+             
                         
                         <img src="Assets/Menu/chicken.JPG" class="img-responsive" alt="">
                     </a>
@@ -19,7 +19,7 @@
                     </div>
         </div>
              <div class="col-lg-3">
-             <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+            
                         
                         <img src="Assets/Menu/curry.JPG" class="img-responsive imageM" alt="">
                     </a>
@@ -29,7 +29,7 @@
                     </div>
         </div>
             <div class="col-lg-3">
-             <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+            
                         
                         <img  src="Assets/Menu/madras.JPG" class="img-responsive imageM" alt="">
                     </a>
@@ -39,8 +39,7 @@
                     </div>
         </div>
              <div class="col-lg-3">
-             <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                        
+                       
                         <img src="Assets/Menu/chick.JPG" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
@@ -54,7 +53,7 @@
         <div class="container">
         <div class="row">
               <div class="col-lg-3">
-             <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+            
                         
                         <img src="Assets/Menu/saag.JPG" class="img-responsive" alt="">
                     </a>
@@ -64,7 +63,7 @@
                     </div>
         </div>
               <div class="col-lg-3">
-             <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+           
                         
                         <img src="Assets/Menu/vegetable curry.JPG" class="img-responsive" alt="">
                     </a>
@@ -74,7 +73,7 @@
                     </div>
         </div>
               <div class="col-lg-3">
-             <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+            
                         
                         <img src="Assets/Menu/lentis.JPG" class="img-responsive" alt="">
                     </a>
@@ -84,8 +83,7 @@
                     </div>
         </div>
               <div class="col-lg-3">
-             <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                        
+          
                         <img src="Assets/Menu/chickenTikka.JPG" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
@@ -99,7 +97,7 @@
         <div class="container">
         <div class="row">
                <div class="col-lg-3">
-             <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+            
                         
                         <img src="Assets/Menu/fishcurry.JPG" class="img-responsive" alt="">
                     </a>
@@ -108,7 +106,7 @@
                         <p class="text-muted">Fish curry with delicious gravy</p>
                     </div>
         </div>   <div class="col-lg-3">
-             <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+            
                         
                         <img src="Assets/Menu/tikka masala.JPG" class="img-responsive" alt="">
                     </a>
@@ -117,7 +115,7 @@
                         <p class="text-muted">Simmered in different spices and sautéed with onions & green peppers</p>
                     </div>
         </div>   <div class="col-lg-3">
-             <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+           
                         
                         <img src="Assets/Menu/shrimps.JPG" class="img-responsive" alt="">
                     </a>
@@ -127,7 +125,7 @@
                     </div>
         </div>  
              <div class="col-lg-3">
-             <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+           
                         
                         <img src="Assets/Menu/roganjosh.JPG" class="img-responsive" alt="">
                     </a>
@@ -144,7 +142,7 @@
         <div class="row">
 
             <div class="col-lg-3">
-             <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+           
                         
                         <img src="Assets/Menu/alootikki.JPG" class="img-responsive" alt="">
                     </a>
@@ -154,7 +152,7 @@
                     </div>
         </div>
              <div class="col-lg-3">
-             <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+           
                         
                         <img src="Assets/Menu/somasac.JPG" class="img-responsive" alt="">
                     </a>
@@ -164,7 +162,7 @@
                     </div>
         </div>
              <div class="col-lg-3">
-             <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+         
                         
                         <img src="Assets/Menu/basmatirice.JPG" class="img-responsive" alt="">
                     </a>
@@ -174,7 +172,7 @@
                     </div>
         </div>
              <div class="col-lg-3">
-             <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+           
                         
                         <img src="Assets/Menu/rice.JPG" class="img-responsive" alt="">
                     </a>
@@ -190,7 +188,7 @@
         <div class="container">
         <div class="row">
                <div class="col-lg-3">
-             <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+            
                         
                         <img src="Assets/Menu/naaan.JPG" class="img-responsive" alt="">
                     </a>
@@ -199,7 +197,7 @@
                         <p class="text-muted">Leavened white flour bread..</p>
                     </div>
         </div>   <div class="col-lg-3">
-             <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+           
                         
                         <img src="Assets/Menu/garlicNaan.JPG" class="img-responsive" alt="">
                     </a>
@@ -208,7 +206,7 @@
                         <p class="text-muted">Leavened white flour garlic bread.</p>
                     </div>
         </div>   <div class="col-lg-3">
-             <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+          
                         
                         <img src="Assets/Menu/chapati.JPG" class="img-responsive" alt="">
                     </a>
@@ -217,7 +215,7 @@
                         <p class="text-muted">Whole wheat chapatti bread baked in oven</p>
                     </div>
         </div>   <div class="col-lg-3">
-             <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+         
                         
                         <img src="Assets/Menu/cucumber.JPG" class="img-responsive" alt="">
                     </a>
@@ -233,7 +231,7 @@
         <div class="row">
 
              <div class="col-lg-3">
-             <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+          
                         
                         <img src="Assets/Menu/chutney.JPG" class="img-responsive" alt="">
                     </a>
@@ -243,7 +241,7 @@
                     </div>
         </div>
              <div class="col-lg-3">
-             <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+          
                         
                         <img src="Assets/Menu/gulabjamun.JPG" class="img-responsive" alt="">
                     </a>
@@ -253,7 +251,7 @@
                     </div>
         </div>
              <div class="col-lg-3">
-             <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+         
                         
                         <img src="Assets/Menu/rasmalai.JPG" class="img-responsive" alt="">
                     </a>

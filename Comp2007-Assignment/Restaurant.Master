@@ -51,7 +51,7 @@
 
                         <ul>
 
-                            <li><a href="/Login.aspx">Login</a></li>
+                            <li><a href="/Login.aspx"><i class="fa fa-sign-in"></i> Login</a></li>
                             <li><a href="/Register.aspx">Register</a></li>
 
                         </ul>
@@ -87,7 +87,7 @@
                             <li class="navbar-text">Hello,
                                 <asp:LoginName ID="LoginName1" runat="server" />
                             </li>
-                            <li><a href="/Logout.aspx">Logout</a></li>
+                            <li><a href="/Logout.aspx"><i class="fa fa-sign-out"></i> Logout</a></li>
 
 
                         </ul>
@@ -164,9 +164,19 @@
                             <h2>Terms of Use</h2>
                             <p class="item-intro text-muted">Conditions.</p>
                             
-                            <p>This game is developed with the createjs libraries which are easeljs, preloadjs, soundjs and tweenjs. It is developed for study purpose to learn the functionality of these liabraries </p>
-                            <p> It is a clone of Jetpack joyride in iOS and all the assets are take from that game. In this game sound effects are given which gives extra effect to gameplay. To pass this game player has to score 5000 points.</p>
-                            <p> I have hosted this game live and I have working on it to add some more levels and features to it.</p>
+                           By using the Chilli Flakes web site, you agree to be bound by our Terms of Use. Chilli Flakes reserves the right to make changes to our Terms of Use at any time.
+
+By using the Chilli Flakes  web sites, you expressly agree that the materials and information you find on this web site are provided "AS IS," without warranty of any kind, either express or implied, including without limitation any warranty for information, services or products and any implied warranties of merchantability or fitness for a particular purpose. Some states do not allow the exclusion of implied warranties, so the above exclusion may not apply to you.
+
+By using the Chilli Flakes web sites, you agree to use the sites for only lawful purposes. You agree to do nothing that could compromise the security of the sites, render the sites inaccessible or otherwise cause damage to the site or their content.
+
+By using this web site, you agree to this Privacy Policy. 
+                            <br /> 
+                            <hr />We may also change the Privacy Policy from time to time, so please be sure to visit this web site often to see if anything has changed. If we post changes and you continue to use the web site, you will be deemed to have agreed to the changes.
+
+Under no circumstances will Chilli Flakes or its subsidiaries, affiliates, designees, officers, directors, employees, attorneys, agents, insurers, successors or assignees be liable for any direct, indirect, special or consequential damages that result from your use of or inability to use the Chilli Flakes web site, including but not limited to your reliance on information obtained from this web site that results in mistakes, omissions, interruptions, deletion or corruption of files, viruses, delays in operation or transmission or any failure of performance.
+
+All content on the Chilli Flakes web site is protected by copyright, trademark and/or other proprietary rights, and these rights are valid and protected in all forms, medias and technologies, whether existing now or developed in the future. You may not copy, modify, remove, delete, augment, add to, publish, transmit, transfer, sell, lease, rent, create derivative works from, or in any way exploit the content of this web site, in whole or in part. The use of our trademarks, service marks and logos without our written permission is strictly prohibited.
                             <ul class="list-inline">
                             <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
@@ -191,9 +201,9 @@
                             <h2>Privacy Policy</h2>
                             <p class="item-intro text-muted">Conditions.</p>
                             
-                            <p>This game is developed with the createjs libraries which are easeljs, preloadjs, soundjs and tweenjs. It is developed for study purpose to learn the functionality of these liabraries </p>
-                            <p> It is a clone of Jetpack joyride in iOS and all the assets are take from that game. In this game sound effects are given which gives extra effect to gameplay. To pass this game player has to score 5000 points.</p>
-                            <p> I have hosted this game live and I have working on it to add some more levels and features to it.</p>
+                            Chilli Flakes, Inc is very sensitive to the privacy concerns of our visitors. We want to make sure your online experience is safe and enjoyable. Any information collected from you through the website or mobile application displaying this policy (referred to in this policy as our “web sites”) is used to provide you with a broad range of services. Depending on the service you are accessing, you may be asked at times to provide information such as name, e-mail address, and opinion and concerns about certain products and services. Ruby Tuesday uses its web sites as communication tools. We collect information which identifies your mode of communication, such as which browser you use, the state in which your Internet server is located, how long you visit and where on our web site you view. This information is used to update and enhance your visit to Chilli Flakes. web sites.
+
+Ownership of any information you provide will be held by Chilli Flakes. alone. We do not sell ownership of this data to any other company or organization nor transfer information to competitors. Information about your visit is used internally at Chilli Flakes.
                             <ul class="list-inline">
                             <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>

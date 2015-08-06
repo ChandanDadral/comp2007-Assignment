@@ -8,7 +8,7 @@
             OnItemCommand="ItemCommand" RenderOuterTable="false">
             <InsertItemTemplate>
                 <fieldset class="form-horizontal">
-				<legend>Catering Quotation</legend>
+				<legend class="heading">Catering Quotation</legend>
 		        <asp:ValidationSummary runat="server" CssClass="alert alert-danger" />
 						    <asp:DynamicControl Mode="Insert" DataField="Name" runat="server" />
 						    <asp:DynamicControl Mode="Insert" DataField="Email" runat="server" />
