@@ -31,7 +31,7 @@ namespace Comp2007_Assignment
             if (exc is HttpUnhandledException)
             {
                 // Pass the error on to the error page.
-                Server.Transfer("ErrorPage.aspx?handler=Application_Error%20-%20Global.asax", true);
+               Context.RewritePath("ErrorPage.aspx?handler=Application_Error%20-%20Global.asax", true);
             }
         }
     }

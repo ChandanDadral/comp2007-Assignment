@@ -1,19 +1,18 @@
-﻿<%@ Page Title="BookingInsert" Language="C#" MasterPageFile="~/Restaurant.Master" CodeBehind="Insert.aspx.cs" Inherits="Comp2007_Assignment.Bookings.Insert" %>
+﻿<%@ Page Title="ReserveInsert" Language="C#" MasterPageFile="~/Restaurant.Master" CodeBehind="Insert.aspx.cs" Inherits="Comp2007_Assignment.Reserves.Insert" %>
 <asp:Content runat="server" ContentPlaceHolderID="MainContent">
     <div>
 		<p>&nbsp;</p>
         <asp:FormView runat="server"
-            ItemType="Comp2007_Assignment.Models.Booking" DefaultMode="Insert"
+            ItemType="Comp2007_Assignment.Models.Reserve" DefaultMode="Insert"
             InsertItemPosition="FirstItem" InsertMethod="InsertItem"
             OnItemCommand="ItemCommand" RenderOuterTable="false">
             <InsertItemTemplate>
                 <fieldset class="form-horizontal">
-				<legend>Insert Booking</legend>
+				<legend>Reserve a Table</legend>
 		        <asp:ValidationSummary runat="server" CssClass="alert alert-danger" />
 						    <asp:DynamicControl Mode="Insert" DataField="Name" runat="server" />
 						    <asp:DynamicControl Mode="Insert" DataField="Email" runat="server" />
 						    <asp:DynamicControl Mode="Insert" DataField="Phone" runat="server" />
-						    <asp:DynamicControl Mode="Insert" DataField="Date" runat="server" />
 						    <asp:DynamicControl Mode="Insert" DataField="Seats" runat="server" />
 						    <asp:DynamicControl Mode="Insert" DataField="Message" runat="server" />
                     <div class="form-group">

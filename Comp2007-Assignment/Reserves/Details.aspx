@@ -1,18 +1,18 @@
-﻿<%@ Page Title="Booking Details" Language="C#" MasterPageFile="~/Restaurant.Master" CodeBehind="Details.aspx.cs" Inherits="Comp2007_Assignment.Bookings.Details" %>
+﻿<%@ Page Title="Reserve Details" Language="C#" MasterPageFile="~/Restaurant.Master" CodeBehind="Details.aspx.cs" Inherits="Comp2007_Assignment.Reserves.Details" %>
 <asp:Content runat="server" ContentPlaceHolderID="MainContent">
     <div>
 		<p>&nbsp;</p>
       
         <asp:FormView runat="server"
-            ItemType="Comp2007_Assignment.Models.Booking" DataKeyNames="Id"
+            ItemType="Comp2007_Assignment.Models.Reserve" DataKeyNames="Id"
             SelectMethod="GetItem"
             OnItemCommand="ItemCommand" RenderOuterTable="false">
             <EmptyDataTemplate>
-                Cannot find the Booking with Id <%: Request.QueryString["Id"] %>
+                Cannot find the Reserve with Id <%: Request.QueryString["Id"] %>
             </EmptyDataTemplate>
             <ItemTemplate>
                 <fieldset class="form-horizontal">
-                    <legend>Booking Details</legend>
+                    <legend>Reserve Details</legend>
 							<div class="row">
 								<div class="col-sm-2 text-right">
 									<strong>Id</strong>
@@ -43,14 +43,6 @@
 								</div>
 								<div class="col-sm-4">
 									<asp:DynamicControl runat="server" DataField="Phone" ID="Phone" Mode="ReadOnly" />
-								</div>
-							</div>
-							<div class="row">
-								<div class="col-sm-2 text-right">
-									<strong>Date</strong>
-								</div>
-								<div class="col-sm-4">
-									<asp:DynamicControl runat="server" DataField="Date" ID="Date" Mode="ReadOnly" />
 								</div>
 							</div>
 							<div class="row">

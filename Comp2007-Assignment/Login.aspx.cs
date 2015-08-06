@@ -41,7 +41,7 @@ namespace Comp2007_Assignment
             var userIdentity = userManager.CreateIdentity(user, DefaultAuthenticationTypes.ApplicationCookie);
 
             authenticationManager.SignIn(new AuthenticationProperties() { IsPersistent = false }, userIdentity);
-            Response.Redirect("~/Login.aspx");
+            Response.Redirect("~/Default.aspx");
          }
          else
          {

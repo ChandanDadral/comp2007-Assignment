@@ -1,18 +1,18 @@
-﻿<%@ Page Title="Booking Details" Language="C#" MasterPageFile="~/Restaurant.Master" CodeBehind="Details.aspx.cs" Inherits="Comp2007_Assignment.Bookings.Details" %>
+﻿<%@ Page Title="ReserveDelete" Language="C#" MasterPageFile="~/Restaurant.Master" CodeBehind="Delete.aspx.cs" Inherits="Comp2007_Assignment.Reserves.Delete" %>
 <asp:Content runat="server" ContentPlaceHolderID="MainContent">
     <div>
 		<p>&nbsp;</p>
-      
+        <h3>Are you sure want to delete this Reserve?</h3>
         <asp:FormView runat="server"
-            ItemType="Comp2007_Assignment.Models.Booking" DataKeyNames="Id"
-            SelectMethod="GetItem"
+            ItemType="Comp2007_Assignment.Models.Reserve" DataKeyNames="Id"
+            DeleteMethod="DeleteItem" SelectMethod="GetItem"
             OnItemCommand="ItemCommand" RenderOuterTable="false">
             <EmptyDataTemplate>
-                Cannot find the Booking with Id <%: Request.QueryString["Id"] %>
+                Cannot find the Reserve with Id <%: Request.QueryString["Id"] %>
             </EmptyDataTemplate>
             <ItemTemplate>
                 <fieldset class="form-horizontal">
-                    <legend>Booking Details</legend>
+                    <legend>Delete Reserve</legend>
 							<div class="row">
 								<div class="col-sm-2 text-right">
 									<strong>Id</strong>
@@ -47,14 +47,6 @@
 							</div>
 							<div class="row">
 								<div class="col-sm-2 text-right">
-									<strong>Date</strong>
-								</div>
-								<div class="col-sm-4">
-									<asp:DynamicControl runat="server" DataField="Date" ID="Date" Mode="ReadOnly" />
-								</div>
-							</div>
-							<div class="row">
-								<div class="col-sm-2 text-right">
 									<strong>Seats</strong>
 								</div>
 								<div class="col-sm-4">
@@ -74,7 +66,8 @@
 					</div>
 					<div class="form-group">
 						<div class="col-sm-offset-2 col-sm-10">
-							<asp:Button ID="CancelButton" runat="server" CommandName="Cancel" Text="Back" CssClass="btn btn-default" />
+							<asp:Button ID="DeleteButton" runat="server" CommandName="Delete" Text="Delete" CssClass="btn btn-danger" />
+							<asp:Button ID="CancelButton" runat="server" CommandName="Cancel" Text="Cancel" CssClass="btn btn-default" />
 						</div>
 					</div>
                 </fieldset>

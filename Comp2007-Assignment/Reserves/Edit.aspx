@@ -1,22 +1,21 @@
-﻿<%@ Page Title="BookingEdit" Language="C#" MasterPageFile="~/Restaurant.Master" CodeBehind="Edit.aspx.cs" Inherits="Comp2007_Assignment.Bookings.Edit" %>
+﻿<%@ Page Title="ReserveEdit" Language="C#" MasterPageFile="~/Restaurant.Master" CodeBehind="Edit.aspx.cs" Inherits="Comp2007_Assignment.Reserves.Edit" %>
 <asp:Content runat="server" ContentPlaceHolderID="MainContent">
     <div>
 		<p>&nbsp;</p>
         <asp:FormView runat="server"
-            ItemType="Comp2007_Assignment.Models.Booking" DefaultMode="Edit" DataKeyNames="Id"
+            ItemType="Comp2007_Assignment.Models.Reserve" DefaultMode="Edit" DataKeyNames="Id"
             UpdateMethod="UpdateItem" SelectMethod="GetItem"
             OnItemCommand="ItemCommand" RenderOuterTable="false">
             <EmptyDataTemplate>
-                Cannot find the Booking with Id <%: Request.QueryString["Id"] %>
+                Cannot find the Reserve with Id <%: Request.QueryString["Id"] %>
             </EmptyDataTemplate>
             <EditItemTemplate>
                 <fieldset class="form-horizontal">
-                    <legend>Edit Booking</legend>
+                    <legend>Edit Reserve</legend>
 					<asp:ValidationSummary runat="server" CssClass="alert alert-danger"  />                 
 						    <asp:DynamicControl Mode="Edit" DataField="Name" runat="server" />
 						    <asp:DynamicControl Mode="Edit" DataField="Email" runat="server" />
 						    <asp:DynamicControl Mode="Edit" DataField="Phone" runat="server" />
-						    <asp:DynamicControl Mode="Edit" DataField="Date" runat="server" />
 						    <asp:DynamicControl Mode="Edit" DataField="Seats" runat="server" />
 						    <asp:DynamicControl Mode="Edit" DataField="Message" runat="server" />
                     <div class="form-group">

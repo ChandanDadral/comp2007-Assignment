@@ -8,9 +8,8 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Comp2007_Assignment.Bookings {
-    public partial class Insert {
-        
+namespace Comp2007_Assignment.Reserves {
+    public partial class Delete {
         /// <summary>
         /// form1 control.
         /// </summary>

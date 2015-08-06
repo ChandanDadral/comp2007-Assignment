@@ -12,13 +12,12 @@ namespace Comp2007_Assignment.Models
     using System;
     using System.Collections.Generic;
     
-    public partial class Booking
+    public partial class Reserve
     {
         public int Id { get; set; }
         public string Name { get; set; }
         public string Email { get; set; }
         public string Phone { get; set; }
-        public Nullable<System.DateTime> Date { get; set; }
         public Nullable<int> Seats { get; set; }
         public string Message { get; set; }
     }

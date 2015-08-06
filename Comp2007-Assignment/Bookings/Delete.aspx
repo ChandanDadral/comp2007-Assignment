@@ -39,10 +39,10 @@
 							</div>
 							<div class="row">
 								<div class="col-sm-2 text-right">
-									<strong>Phone_Number</strong>
+									<strong>Phone</strong>
 								</div>
 								<div class="col-sm-4">
-									<asp:DynamicControl runat="server" DataField="Phone_Number" ID="Phone_Number" Mode="ReadOnly" />
+									<asp:DynamicControl runat="server" DataField="Phone" ID="Phone" Mode="ReadOnly" />
 								</div>
 							</div>
 							<div class="row">
@@ -55,26 +55,18 @@
 							</div>
 							<div class="row">
 								<div class="col-sm-2 text-right">
-									<strong>Number_of_Persons</strong>
+									<strong>Seats</strong>
 								</div>
 								<div class="col-sm-4">
-									<asp:DynamicControl runat="server" DataField="Number_of_Persons" ID="Number_of_Persons" Mode="ReadOnly" />
+									<asp:DynamicControl runat="server" DataField="Seats" ID="Seats" Mode="ReadOnly" />
 								</div>
 							</div>
 							<div class="row">
 								<div class="col-sm-2 text-right">
-									<strong>Type</strong>
+									<strong>Message</strong>
 								</div>
 								<div class="col-sm-4">
-									<asp:DynamicControl runat="server" DataField="Type" ID="Type" Mode="ReadOnly" />
-								</div>
-							</div>
-							<div class="row">
-								<div class="col-sm-2 text-right">
-									<strong>Description</strong>
-								</div>
-								<div class="col-sm-4">
-									<asp:DynamicControl runat="server" DataField="Description" ID="Description" Mode="ReadOnly" />
+									<asp:DynamicControl runat="server" DataField="Message" ID="Message" Mode="ReadOnly" />
 								</div>
 							</div>
                  	<div class="row">

@@ -166,6 +166,7 @@
     <Content Include="Bookings\Edit.aspx" />
     <Content Include="Bookings\Insert.aspx" />
     <Content Include="Catering.aspx" />
+    <Content Include="Conformation\BookingConfirm.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
@@ -198,6 +199,11 @@
     <Content Include="Logout.aspx" />
     <Content Include="Menu.aspx" />
     <Content Include="Register.aspx" />
+    <Content Include="Reserves\Default.aspx" />
+    <Content Include="Reserves\Delete.aspx" />
+    <Content Include="Reserves\Details.aspx" />
+    <Content Include="Reserves\Edit.aspx" />
+    <Content Include="Reserves\Insert.aspx" />
     <Content Include="Restaurant.Master" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -226,6 +232,24 @@
       <LastGenOutput>BookingModel.cs</LastGenOutput>
     </Content>
     <Content Include="Assets\Menu\menu.pdf" />
+    <EntityDeploy Include="Models\ReserveModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>ReserveModel.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <Content Include="Models\ReserveModel.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>ReserveModel.edmx</DependentUpon>
+      <LastGenOutput>ReserveModel.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="Models\ReserveModel.edmx.diagram">
+      <DependentUpon>ReserveModel.edmx</DependentUpon>
+    </Content>
+    <Content Include="Models\ReserveModel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>ReserveModel.edmx</DependentUpon>
+      <LastGenOutput>ReserveModel.cs</LastGenOutput>
+    </Content>
+    <None Include="Properties\PublishProfiles\Comp2007-Assignment %282%29.pubxml" />
     <None Include="Properties\PublishProfiles\Comp2007-Assignment.pubxml" />
     <None Include="Scripts\jquery-2.1.4.intellisense.js" />
     <Content Include="Scripts\jquery-2.1.4.js" />
@@ -304,6 +328,13 @@
     </Compile>
     <Compile Include="Catering.aspx.designer.cs">
       <DependentUpon>Catering.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Conformation\BookingConfirm.aspx.cs">
+      <DependentUpon>BookingConfirm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Conformation\BookingConfirm.aspx.designer.cs">
+      <DependentUpon>BookingConfirm.aspx</DependentUpon>
     </Compile>
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
@@ -495,6 +526,24 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>BookingModel.edmx</DependentUpon>
     </Compile>
+    <Compile Include="Models\Reserve.cs">
+      <DependentUpon>ReserveModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ReserveModel.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ReserveModel.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ReserveModel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ReserveModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ReserveModel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ReserveModel.edmx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Register.aspx.cs">
       <DependentUpon>Register.aspx</DependentUpon>
@@ -502,6 +551,41 @@
     </Compile>
     <Compile Include="Register.aspx.designer.cs">
       <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reserves\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reserves\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reserves\Delete.aspx.cs">
+      <DependentUpon>Delete.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reserves\Delete.aspx.designer.cs">
+      <DependentUpon>Delete.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reserves\Details.aspx.cs">
+      <DependentUpon>Details.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reserves\Details.aspx.designer.cs">
+      <DependentUpon>Details.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reserves\Edit.aspx.cs">
+      <DependentUpon>Edit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reserves\Edit.aspx.designer.cs">
+      <DependentUpon>Edit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reserves\Insert.aspx.cs">
+      <DependentUpon>Insert.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reserves\Insert.aspx.designer.cs">
+      <DependentUpon>Insert.aspx</DependentUpon>
     </Compile>
     <Compile Include="Restaurant.Master.cs">
       <DependentUpon>Restaurant.Master</DependentUpon>
