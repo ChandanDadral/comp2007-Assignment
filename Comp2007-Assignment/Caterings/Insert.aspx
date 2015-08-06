@@ -14,7 +14,7 @@
 						    <asp:DynamicControl Mode="Insert" DataField="Email" runat="server" />
 						    <asp:DynamicControl Mode="Insert" DataField="Address" runat="server" />
 						    <asp:DynamicControl Mode="Insert" DataField="Phone" runat="server" />
-						    <asp:DynamicControl Mode="Insert" DataField="Date" runat="server" />
+						    <asp:DynamicControl DataFormatString="{MM-dd-yyy}" Mode="Insert" DataField="Date" runat="server" NullDisplayText="MM-dd-yyy" />
 						    <asp:DynamicControl Mode="Insert" DataField="Budget" runat="server" />
 						    <asp:DynamicControl Mode="Insert" DataField="Guests" runat="server" />
                     <div class="form-group">
