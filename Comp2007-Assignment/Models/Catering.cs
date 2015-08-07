@@ -11,16 +11,32 @@ namespace Comp2007_Assignment.Models
 {
     using System;
     using System.Collections.Generic;
+    using System.ComponentModel.DataAnnotations;
     
     public partial class Catering
     {
+        [Required]
         public int Id { get; set; }
+        [Required]
+        [StringLength(50)]
         public string Name { get; set; }
+        [Required]
+        [StringLength(50)]
         public string Email { get; set; }
+        [Required]
+        [StringLength(50)]
         public string Address { get; set; }
+        [Required]
+        [StringLength(50)]
         public string Phone { get; set; }
-        public Nullable<System.DateTime> Date { get; set; }
+        [Required]
+        [Display(Name = "Date"), DataType(DataType.Date)]
+        public DateTime? Date { get; set;  }
+      //  public Nullable<System.DateTime> Date { get; set; }
+        [Required][Range(0,999999999)]
         public Nullable<int> Budget { get; set; }
+        [Required]
+        [Range(0, 999999999)]
         public Nullable<int> Guests { get; set; }
     }
 }

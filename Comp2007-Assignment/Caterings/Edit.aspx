@@ -2,6 +2,7 @@
 <asp:Content runat="server" ContentPlaceHolderID="MainContent">
     <div>
 		<p>&nbsp;</p>
+        <div class="col-md-offset-5">
         <asp:FormView runat="server"
             ItemType="Comp2007_Assignment.Models.Catering" DefaultMode="Edit" DataKeyNames="Id"
             UpdateMethod="UpdateItem" SelectMethod="GetItem"
@@ -11,7 +12,7 @@
             </EmptyDataTemplate>
             <EditItemTemplate>
                 <fieldset class="form-horizontal">
-                    <legend>Edit Catering</legend>
+                    <legend class="heading">Edit Catering</legend>
 					<asp:ValidationSummary runat="server" CssClass="alert alert-danger"  />                 
 						    <asp:DynamicControl Mode="Edit" DataField="Name" runat="server" />
 						    <asp:DynamicControl Mode="Edit" DataField="Email" runat="server" />
@@ -29,6 +30,7 @@
                 </fieldset>
             </EditItemTemplate>
         </asp:FormView>
+            </div>
     </div>
 </asp:Content>
 

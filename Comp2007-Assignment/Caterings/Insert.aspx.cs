@@ -43,7 +43,7 @@ namespace Comp2007_Assignment.Caterings
         {
             if (e.CommandName.Equals("Cancel", StringComparison.OrdinalIgnoreCase))
             {
-                Response.Redirect("Default");
+                Response.Redirect("~/Catering.aspx");
             }
         }
     }

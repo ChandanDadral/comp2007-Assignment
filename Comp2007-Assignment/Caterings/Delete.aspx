@@ -2,7 +2,7 @@
 <asp:Content runat="server" ContentPlaceHolderID="MainContent">
     <div>
 		<p>&nbsp;</p>
-        <h3>Are you sure want to delete this Catering?</h3>
+        <h3 class="text-center heading">Are you sure want to delete this Catering?</h3>
         <asp:FormView runat="server"
             ItemType="Comp2007_Assignment.Models.Catering" DataKeyNames="Id"
             DeleteMethod="DeleteItem" SelectMethod="GetItem"
@@ -12,7 +12,8 @@
             </EmptyDataTemplate>
             <ItemTemplate>
                 <fieldset class="form-horizontal">
-                    <legend>Delete Catering</legend>
+                    <legend class="text-center paragraph-text">Delete Catering</legend>
+                    <div class="col-md-offset-5">
 							<div class="row">
 								<div class="col-sm-2 text-right">
 									<strong>Id</strong>
@@ -76,7 +77,9 @@
 								<div class="col-sm-4">
 									<asp:DynamicControl runat="server" DataField="Guests" ID="Guests" Mode="ReadOnly" />
 								</div>
-							</div>
+                                </div>
+                        </div>
+                    <div class="col-md-offset-5">
                  	<div class="row">
 					  &nbsp;
 					</div>
@@ -86,6 +89,7 @@
 							<asp:Button ID="CancelButton" runat="server" CommandName="Cancel" Text="Cancel" CssClass="btn btn-default" />
 						</div>
 					</div>
+                        </div>
                 </fieldset>
             </ItemTemplate>
         </asp:FormView>

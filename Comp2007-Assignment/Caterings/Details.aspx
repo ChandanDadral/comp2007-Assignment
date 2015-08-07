@@ -12,9 +12,10 @@
             </EmptyDataTemplate>
             <ItemTemplate>
                 <fieldset class="form-horizontal">
-                    <legend class="heading">Catering Details</legend>
-                     <p class="paragraph-text">This is the detail view of the selected booking</p>
-							<div class="row">
+                    <legend class="heading text-center">Catering Details</legend>
+                     <p class=" text-center paragraph-text">This is the detail view of the selected booking</p>
+					<div class="col-md-offset-5">		
+                    <div class="row">
 								<div class="col-sm-2 text-right">
 									<strong>Id</strong>
 								</div>
@@ -78,6 +79,8 @@
 									<asp:DynamicControl runat="server" DataField="Guests" ID="Guests" Mode="ReadOnly" />
 								</div>
 							</div>
+                        </div>
+                    <div class="col-md-offset-5">
                  	<div class="row">
 					  &nbsp;
 					</div>
@@ -86,6 +89,7 @@
 							<asp:Button ID="CancelButton" runat="server" CommandName="Cancel" Text="Back" CssClass="btn btn-default" />
 						</div>
 					</div>
+                        </div>
                 </fieldset>
             </ItemTemplate>
         </asp:FormView>

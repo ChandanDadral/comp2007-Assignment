@@ -11,14 +11,25 @@ namespace Comp2007_Assignment.Models
 {
     using System;
     using System.Collections.Generic;
+    using System.ComponentModel.DataAnnotations;
     
     public partial class Reserve
     {
+        [Required]
         public int Id { get; set; }
+        [Required]
+        [StringLength(50)]
         public string Name { get; set; }
+        [Required]
+        [StringLength(50)]
         public string Email { get; set; }
+        [Required]
+        [StringLength(50)]
         public string Phone { get; set; }
+        [Required]
+        [Range(0, 999999999)]
         public Nullable<int> Seats { get; set; }
+        [Required]
         public string Message { get; set; }
     }
 }
