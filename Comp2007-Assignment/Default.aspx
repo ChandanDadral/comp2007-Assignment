@@ -17,16 +17,21 @@
                       
 
                         <div class="carousel-caption intro-text">Welcome To <br />Chilli Flake Restraunt</div>
+
+                           <div class="carousel-caption h2"><a href="#testionominal" ><i class="fa fa-caret-square-o-down fa-3x logoD"></i></a></div>
+                        
                        
                    
                     </div>
                     <div class="item">
                         <img id="image"  src="Assets/images/Sam.png" alt="Slider image">
                         <div class="carousel-caption intro-text">Eat the Best</div>
+                        <div class="carousel-caption h2"><a href="#testionominal" ><i class="fa fa-caret-square-o-down fa-3x logoD"></i></a></div>
                     </div>
                     <div class="item">
                         <img id="image"  src="Assets/images/Burger.png" alt="Slider image">
                         <div class="carousel-caption intro-text">Best Quality Food</div>
+                         <div class="carousel-caption h2"><a href="#testionominal" ><i class="fa fa-caret-square-o-down fa-3x logoD"></i></a></div>
 
                     </div>
                     <div class="item">
@@ -34,6 +39,7 @@
                         <div class="carousel-caption intro-text">
                             Take care of Customers
                         </div>
+                         <div class="carousel-caption h2"><a href="#testionominal" ><i class="fa fa-caret-square-o-down fa-3x logoD"></i></a></div>
 
                     </div>
                        <div class="item">
@@ -41,6 +47,7 @@
                         <div class="carousel-caption intro-text">
                             Delicous Desserts
                         </div>
+                            <div class="carousel-caption h2"><a href="#testionominal" ><i class="fa fa-caret-square-o-down fa-3x logoD"></i></a></div>
 
                     </div>
                 </div> <!-- end carousel-inner -->
@@ -54,7 +61,8 @@
 
             </div> <!-- end carousel -->
 
-    <section>
+    <!--testinominal starts here-->
+    <section id="testionominal">
         <div class="container">
         <div class="page-header" id="section-testimonials">
 				<h2 class="heading text-center">Testimonials.</h2>
@@ -81,12 +89,13 @@
 					</blockquote>
 				</div>
 			</div> <!-- end row -->
-            </div>
-         
+            </div><!--end container-->
+       <!--divider between sections-->  
     <img id="divider" src="Assets/images/golden.png" />
       
     </section>
    
+    <!--section for sevices -->
     <section>
         <div>
             <h1 class="text-center heading">Services at Chilli Flakes</h1>
@@ -118,9 +127,9 @@
                     <img src="Assets/Logo/cake.png" />
                     <h4>Birthday Parties</h4>
                     <p class="text-muted">We have special arrangements for Birthday Parties</p>
-                </div>
-                </div>
-        </div>
+                    </div>
+              </div>
+        </div><!--end container-->
     </section>
        
     <!---Tings to know-->
@@ -180,8 +189,8 @@
 					</div> <!-- end collapse -->
 				</div> <!-- end panel -->
 			</div> <!-- end panel-group -->
-            </div>
-            </div>
+            </div><!--end row-->
+            </div><!--container-->
     </section>
        
 </asp:Content>

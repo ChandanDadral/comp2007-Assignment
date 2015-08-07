@@ -263,3 +263,25 @@
 .paragraph-text{
     font-family: 'Quicksand', sans-serif;
 }
+.logoD{
+    color: white;
+    margin-bottom:100px;
+}
+
+.logoD:hover {
+    opacity: 0.6;
+  
+}
+.logoM{
+    color: #CCCC00	;
+    margin-bottom:60px;
+}
+
+.logoM:hover {
+    opacity: 0.6;
+  
+}
+
+.padding{
+    margin-top:10px;
+}

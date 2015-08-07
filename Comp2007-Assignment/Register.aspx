@@ -12,7 +12,8 @@
          <hr />
         <p>
             <asp:Literal runat="server" ID="StatusMessage" />
-        </p>                
+        </p> 
+                <!--Ap.net controls for register page-->               
         <div style="margin-bottom:10px">
             <asp:Label runat="server" AssociatedControlID="UserName">User name</asp:Label>
             <div>
@@ -40,22 +41,22 @@
             </div>
         </div>
         <div>
-           
+            <!--Ap.net Button for register page once clicked trigger the CreateUser_Click Event-->  
                  <div class="col-lg-push-5">
         <asp:Button ID="btnLogin" runat="server" Text="Register" CssClass="btn btn-primary"
             OnClick="CreateUser_Click" />
-    </div>
+                </div>
           </div>      
-            </div>
+     </div> <!--Co--md-7 ends here-->
             <div class="col-lg-5 pull-right fotter">
-                <img src="Assets/Logo/menuLogo.PNG" />
+              <a href="/Menu.aspx" ><img src="Assets/Logo/menuLogo.PNG" /></a> 
                 <hr />
                 <div class="pull-left">
                 <i class="fa fa-thumbs-up fa-5x"></i>
                     <h3> You will Love our Food</h3>
                     </div>
-        </div>
-    </div>
-    </div>
+        </div><!--col-md-5 ends here-->
+    </div><!--eow ends here-->
+    </div><!--container ends here-->
 
 </asp:Content>

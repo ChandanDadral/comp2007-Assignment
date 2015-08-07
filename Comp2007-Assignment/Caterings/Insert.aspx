@@ -22,6 +22,7 @@
 
                     <div class="form-group">
                         <div class="col-sm-offset-2 col-sm-10">
+                               <!--Buttons for insert and Cancel-->
                             <asp:Button runat="server" ID="InsertButton" CommandName="Insert" Text="Insert" CssClass="btn btn-primary" />
                             <asp:Button runat="server" ID="CancelButton" CommandName="Cancel" Text="Cancel" CausesValidation="false" CssClass="btn btn-default" />
                        
@@ -38,7 +39,8 @@
                 <p class="paragraph-text"> Try our special deal of two betwenn 12 to 5</p>
 
             </div>
-        </div>
-    </div>
+        </div><!--end row -->
+                
+        </div><!--end container-->
    
 </asp:Content>

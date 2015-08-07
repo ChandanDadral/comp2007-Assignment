@@ -9,6 +9,7 @@ namespace Comp2007_Assignment
 {
     public partial class Logout : System.Web.UI.Page
     {
+        //logotu function when user clicks the log out button and redirects to login page
         protected void Page_Load(object sender, EventArgs e)
         {
            

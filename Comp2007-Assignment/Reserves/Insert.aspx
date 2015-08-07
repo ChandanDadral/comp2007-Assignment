@@ -1,4 +1,5 @@
 ﻿<%@ Page Title="ReserveInsert" Language="C#" MasterPageFile="~/Restaurant.Master" CodeBehind="Insert.aspx.cs" Inherits="Comp2007_Assignment.Reserves.Insert" %>
+
 <asp:Content runat="server" ContentPlaceHolderID="MainContent">
    
      <div class="container">
@@ -21,6 +22,7 @@
 						    <asp:DynamicControl Mode="Insert" DataField="Message" runat="server" />
                     <div class="form-group">
                         <div class="col-sm-offset-2 col-sm-10">
+                            <!--Buttons for insert and Cancel-->
                             <asp:Button runat="server" ID="InsertButton" CommandName="Insert" Text="Insert" CssClass="btn btn-primary" />
                             <asp:Button runat="server" ID="CancelButton" CommandName="Cancel" Text="Cancel" CausesValidation="false" CssClass="btn btn-default" />
                         </div>
@@ -38,7 +40,7 @@
         <h3 class="about-heading3 text-center"> Food is of Best quality</h3>
          <div class="col-md-offset-3">
 <img src="../Assets/images/info.JPG" />
-            </div>
+            </div><!--end row -->
                 
-        </div>
+        </div><!--end container-->
 </asp:Content>

@@ -113,10 +113,17 @@
     <Content Include="404.aspx" />
     <Content Include="About.aspx" />
     <Content Include="App_Readme\Elmah.txt" />
+    <Content Include="Assets\images\1.png" />
+    <Content Include="Assets\images\2.jpg" />
+    <Content Include="Assets\images\3.png" />
     <Content Include="Assets\images\about.JPG" />
     <Content Include="Assets\images\Burger.png" />
+    <Content Include="Assets\images\c2.png" />
+    <Content Include="Assets\images\c4.png" />
+    <Content Include="Assets\images\c5.png" />
     <Content Include="Assets\images\Capture.PNG" />
     <Content Include="Assets\images\chef.jpg" />
+    <Content Include="Assets\images\cheff2.jpg" />
     <Content Include="Assets\images\dal.png" />
     <Content Include="Assets\images\dessert.png" />
     <Content Include="Assets\images\golden.png" />
@@ -182,6 +189,7 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\content.css" />
     <Content Include="Content\Style.css" />
     <Content Include="Default.aspx" />
     <Content Include="DynamicData\FieldTemplates\Boolean.ascx" />
@@ -699,6 +707,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Mail\" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />

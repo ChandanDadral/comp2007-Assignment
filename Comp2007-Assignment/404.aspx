@@ -2,7 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
-
+    <!--404 page not found oage-->
     <h1 class="text-center">404 - Page Not Found!</h1>
     <p class="text-center text-muted"> Something went wrong</p>
     <div class="col-md-offset-5">

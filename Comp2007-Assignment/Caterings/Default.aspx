@@ -87,6 +87,7 @@
 								<asp:DynamicControl runat="server" DataField="Guests" ID="Guests" Mode="ReadOnly" />
 							</td>
                     <td>
+                          <!--hyperlinks for endit, delete and Details-->
 					    <asp:HyperLink runat="server" NavigateUrl='<%# FriendlyUrl.Href("~/Caterings/Details", Item.Id) %>' Text="Details" ><i class="fa fa-file-text fa-2x"></i></asp:HyperLink> | 
 					    <asp:HyperLink runat="server" NavigateUrl='<%# FriendlyUrl.Href("~/Caterings/Edit", Item.Id) %>' Text="Edit" ><i class="fa fa-pencil-square-o fa-2x"></i> </asp:HyperLink> | 
                         <asp:HyperLink runat="server" NavigateUrl='<%# FriendlyUrl.Href("~/Caterings/Delete", Item.Id) %>' CssClass="icon-new"><i class="fa fa-eraser fa-2x"></i></asp:HyperLink>

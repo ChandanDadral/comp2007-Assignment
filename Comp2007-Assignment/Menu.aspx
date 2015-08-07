@@ -1,16 +1,17 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Restaurant.Master" AutoEventWireup="true" CodeBehind="Menu.aspx.cs" Inherits="Comp2007_Assignment.Menu" %>
+﻿<%@ page title="" language="C#" masterpagefile="~/Restaurant.Master" autoeventwireup="true" codebehind="Menu.aspx.cs" inherits="Comp2007_Assignment.Menu" %>
+
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
+<asp:content id="Content2" contentplaceholderid="MainContent" runat="server">
        <h1 class="text-center heading">Menu</h1>
             <h3 class="text-center"> Please review the items that we provide</h3>
 
-    <div class="container">
+    <div class="container"><!--container that hold menu items-->
         <div class="row">
              <h2 class="text-center about-heading3"> Main Course</h2>
-         <div class="col-lg-3">
-             
-                        
+        <!--every menu item has co- of 3 -->
+             <div class="col-lg-3">
+
                         <img src="Assets/Menu/chicken.JPG" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
@@ -46,9 +47,9 @@
                         <h4>ChickPee Curry</h4>
                         <p class="text-muted">Chick pee in delicious curry</p>
                     </div>
-        </div>
-            </div>
-        </div>
+                         </div>
+                     </div><!--row ends here-->
+                </div><!--container ends here-->
     
         <div class="container">
         <div class="row">
@@ -93,7 +94,7 @@
         </div>
                  </div>
         </div>
-    
+     <div class="carousel-caption h2 col-lg-offset-8"><a href="#more" ><i class="fa fa-arrow-circle-down fa-3x logoM"></i></a></div>
         <div class="container">
         <div class="row">
                <div class="col-lg-3">
@@ -137,7 +138,7 @@
            </div>
         </div>
       <hr />
-    <h2 class="text-center about-heading3"> Appetizers</h2>
+    <h2 class="text-center about-heading3" id="more"> Appetizers</h2>
         <div class="container">
         <div class="row">
 
@@ -184,6 +185,7 @@
  </div>
         </div>
       <hr />
+    <!--desserts and sides starts here-->
     <h2 class="text-center about-heading3"> Sides And Desserts</h2>
         <div class="container">
         <div class="row">
@@ -262,9 +264,10 @@
         </div>
             </div><!--row-->
     </div>
+    <!--div shows button to download menu-->
       <div class="col-lg-8 col-lg-offset-2 text-center">
                     <a href="Assets/Menu/menu.pdf" onclick="_gaq.push(['_trackEvent', 'Button', 'Download', 'Download Resume']);" target="_blank" class="btn btn-lg btn-group">
                         <i class="fa fa-download"></i> Download Menu
                     </a>
                 </div>
-</asp:Content>
+</asp:content>

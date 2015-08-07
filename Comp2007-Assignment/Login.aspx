@@ -8,6 +8,7 @@
         <h2 class="heading"> Login </h2>
         <h4>Please log in in order to manage bookings</h4>
          <hr />
+        <!--place holder that shows usernae-->
          <asp:PlaceHolder runat="server" ID="LoginStatus" Visible="false">
             <p>
                <asp:Literal runat="server" ID="StatusText" />
@@ -40,6 +41,6 @@
                </div>
             </div>
          </asp:PlaceHolder>
-      </div>
+      </div><!--text center div ends here-->
 
 </asp:Content>

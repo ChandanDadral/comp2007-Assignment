@@ -14,9 +14,11 @@
     <link href="Content/bootstrap.css" rel="stylesheet" />
     <link href="Content/bootstrap.min.css" rel="stylesheet" />
     <link href="Content/Style.css" rel="stylesheet" />
+    
     <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
+    <!--Google Fonts-->
     <link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
@@ -25,29 +27,30 @@
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
+    <!--Body-->
 <body>
     <form id="form1" runat="server">
         <div>
+            <!--Public Navbar Starts here-->
             <asp:PlaceHolder ID="PublicNav" runat="server">
 
-
-                 
-                <div class="header-login-signup">
+                <div class="header-login-signup navbar-custom">
 
                     <a class="navbar-brand" rel="home" href="Default.aspx" title="Buy Sell Rent Everyting">
                         <img style="max-width: 250px; margin-top: -90px;"
                             src="Assets/images/LogoChilli.png" />
                     </a>
 
-                    <div class="header-limiter">
+                    <div class="header-limiter navbar-custom">
 
                         <nav>
-                            <a href="/Default.aspx">Home</a>
+                            <a href="/Default.aspx"><i class="fa fa-home"></i>  Home</a>
                             <a href="/About.aspx">About</a>
                             <a href="/Menu.aspx">Menu</a>
                              <a href="/Reserves/Insert.aspx">Reserve</a>
                              <a href="/Catering.aspx">Catering</a>
                             <a href="/Contact.aspx">Contact</a>
+                           
                         </nav>
 
                         <ul>
@@ -61,6 +64,7 @@
 
                 </div>
             </asp:PlaceHolder>
+             <!--Private Navbar Starts here-->
             <asp:PlaceHolder ID="PrivateNav" runat="server">
 
 
@@ -72,11 +76,8 @@
                     </a>
 
                     <div class="header-limiter">
-
-
-
                       <nav>
-                            <a href="/Default.aspx">Home</a>
+                            <a href="/Default.aspx"><i class="fa fa-home"></i> Home</a>
                             <a href="/About.aspx">About</a>
                             <a href="/Menu.aspx">Menu</a>
                             <a href="/Reserves/Default.aspx">Bookings</a>
@@ -85,6 +86,7 @@
                         </nav>
 
                         <ul>
+                             <!--Shows login name -->
                             <li class="navbar-text">Hello,
                                 <asp:LoginName ID="LoginName1" runat="server" />
                             </li>
@@ -97,8 +99,10 @@
 
                 </div>
             </asp:PlaceHolder>
+            <!--Alla webiste acontent goes here-->
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
+            <!--Place holder for Footer-->
             <asp:PlaceHolder ID="PlaceHolder2" runat="server">
                 <div class="container navbar fotter">
                 <hr />
@@ -127,29 +131,12 @@
                         </div>
                       
                     </a>
-               </div>
-                    
-                    
-                     </div>
-                    </div>
+               </div><!--row ends here-->
 
-              <%--  <nav class="navbar navbar-inverse fotter">
-                    <div class="row">
-                    
-                        <div class="col-md-6">
-                        <p class="text-muted credit">Copyright &copy; 2015 by <a href="http://cdadral.esy.es">Chandan Dadral</a> and <a href="http://sharmakaran.com">Karan Sharma</a>.</p>
-                        
-                        </div>
-                        <div class="col-md-2 pull-right">
-                    <ul class="list-inline social-buttons">
-                        <li><a href="https://github.com/ChandanDadral"><i class="fa fa-github"></i></a> </li>
-                        <li><a href="https://twitter.com/?lang=en"><i class="fa fa-twitter"></i></a> </li>
-                        <li><a href="https://www.facebook.com"><i class="fa fa-facebook"></i></a> </li>
-                        <li><a href="https://www.linkedin.com/profile/view?id=318014756&authType=NAME_SEARCH&authToken=BWAb&locale=en_US&srchid=3180147561427684019507&srchindex=1&srchtotal=4&trk=vsrp_people_res_name&trkInfo=VSRPsearchId%3A3180147561427684019507%2CVSRPtargetId%3A318014756%2CVSRPcmpt%3Aprimary%2CVSRPnm%3A"><i class="fa fa-linkedin"></i></a> </li>
-                    </ul>
-                </div>
-                    </div>
-                </nav>--%>
+                     </div><!--List Inline ends here-->
+                    </div><!--Container Footer Ends Here-->
+
+                <!--Modal 1 for terms of Use-->
                 <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
@@ -186,7 +173,7 @@ All content on the Chilli Flakes web site is protected by copyright, trademark a
             </div>
         </div>
     </div>
-                <!--Privacy Policy-->
+                <!--Privacy Policy Modal 2-->
                    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
@@ -212,10 +199,10 @@ Ownership of any information you provide will be held by Chilli Flakes. alone. W
                 </div>
             </div>
         </div>
-    </div>
-            </asp:PlaceHolder>
-        </div>
-    </form>
+    </div><!--modal 2 ends here-->
+            </asp:placeholder>
+        </div><!--Main dov ends here-->
+    </form><!--form ends here-->
     <!--Javascript Section-->
     <script src="Scripts/bootstrap.min.js"></script>
     <script src="Scripts/jquery-2.1.4.js"></script>

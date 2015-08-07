@@ -12,10 +12,12 @@ namespace Comp2007_Assignment
 {
     public partial class Login : System.Web.UI.Page
     {
+        //this function checks the user identity and if it is correct logs in to user.
         protected void Page_Load(object sender, EventArgs e)
         {
             if (!IsPostBack)
             {
+                //if identity is authenticated then shows user name in nav bar
                 if (User.Identity.IsAuthenticated)
                 {
                     StatusText.Text = string.Format("Hello {0}!!", User.Identity.GetUserName());
@@ -29,12 +31,14 @@ namespace Comp2007_Assignment
             }
 
         }
+        //this is the functionin go sin in funcation
          protected void SignIn(object sender, EventArgs e)
       {
          var userStore = new UserStore<IdentityUser>();
          var userManager = new UserManager<IdentityUser>(userStore);
          var user = userManager.Find(UserName.Text, Password.Text);
 
+             //checks user has entered right credential and redirects to menu page
          if (user != null)
          {
             var authenticationManager = HttpContext.Current.GetOwinContext().Authentication;
@@ -49,7 +53,7 @@ namespace Comp2007_Assignment
             LoginStatus.Visible = true;
          }
       }
-
+        //signout function which signout the user
       protected void SignOut(object sender, EventArgs e)
       {
          var authenticationManager = HttpContext.Current.GetOwinContext().Authentication;

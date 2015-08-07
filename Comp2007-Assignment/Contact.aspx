@@ -2,7 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
-
+    <!--thisn is the basic contact page-->
      <section id="contact">
         <div class="container">
             <div class="row">
@@ -40,15 +40,15 @@
 
                     <div class="col-lg-6">
 
-                       
+                       <!--image button for google maos-->
                         <asp:ImageButton ID="ImageButton1" runat="server" ImageUrl="~/Assets/images/maps.JPG" Height="400" OnClientClick="https://www.google.ca/maps/place/Chilli+Flakes/@19.0206101,72.8522515,17z/data=!3m1!4b1!4m2!3m1!1s0x3be7cf275cc82b5d:0xcf9a3ac2f4e634dc" DescriptionUrl="https://www.google.ca/maps/place/Chilli+Flakes/@19.0206101,72.8522515,17z/data=!3m1!4b1!4m2!3m1!1s0x3be7cf275cc82b5d:0xcf9a3ac2f4e634dc" />
                             
                     </div>
                            
                                           
                 
-            </div>
-        </div>
+            </div><!--col ends here-->
+        </div><!--row ends here-->
     </section>
 
 </asp:Content>

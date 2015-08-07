@@ -4,7 +4,49 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
 
     <div">
-         <h2 class="heading text-center jumbotron"> About Chilli Flakes </h2>
+         <h2 class="heading text-center"> About Chilli Flakes </h2>
+        <section>
+             <div class="carousel slide" id="gallery-carousel" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#gallery-carousel" data-slide-to="0" class="active"></li>
+                <li data-target="#gallery-carousel" data-slide-to="1"></li>
+                <li data-target="#gallery-carousel" data-slide-to="2"></li>
+            </ol>
+
+            <div class="carousel-inner">
+                <!--Active Image in Carausel-->
+                <div class="item active">
+                    <img src="Assets/images/1.png" alt="Slider image">
+                    <div class="carousel-caption h2">Better Dinning Experience </div>
+                </div>
+                <div class="item">
+                    <img src="Assets/images/2.jpg" alt="Slider image">
+                    <div class="carousel-caption h2">
+                        Best Reputation 
+                        <br />
+                        All Around
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="Assets/images/3.png" alt="Slider image">
+                    <div class="carousel-caption h2">
+                       Try food with Quality
+                        <br />
+                        and Standard
+                    </div>
+                </div>
+            </div>
+            <!-- end carousel-inner -->
+            <!--Navigation for Image-->
+            <a href="#gallery-carousel" class="left carousel-control" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a href="#gallery-carousel" class="right carousel-control" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+        </div>
+        <!-- end carousel -->
+        </section>
         <div class="co-lg-4">
         <h1 class="text-center about-heading">Indian Inspired</h1>
          
@@ -42,7 +84,7 @@
                 </div>
 
                 <div class="col-md-offset-10">
-                    <img src="Assets/images/chef.jpg" height="250" width="300" />
+                    <img src="Assets/images/chef.jpg" height="250" width="230" />
                 </div>
             </div>
         </div>

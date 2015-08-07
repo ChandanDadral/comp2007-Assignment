@@ -28,7 +28,7 @@
                 </fieldset>
             </EditItemTemplate>
         </asp:FormView>
-            </div>
+            </div><!--end col-->
     </div>
 </asp:Content>
 
